@@ -1,4 +1,4 @@
-# Analytic-NPKE
+# Analytical Solution of the Neutron Point Kinetic Equations 
 The present repository contains the Python codes that were developed to solve the Neutron Point Kinetics Equations, using the Laplace transform and the Heaviside's Theorem. Such solution was reported in the paper "A new simplified analytical solution to solve the neutron point kinetics equations using the Laplace transform method", publised in the the journal of *Computer Physics Communications* in the following [link](https://www.sciencedirect.com/science/article/abs/pii/S0010465522002831?via%3Dihub). 
 
 The programs are licensed under a Creative Commons Attribution 4.0 International License: http://creativecommons.org/licenses/by/4.0/

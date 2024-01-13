@@ -18,6 +18,12 @@ $$\frac{dC_k\left(t\right)}{dt}=\frac{\beta_k}{\Lambda}n\left(t\right)-\lambda_k
 where $n(t)$ denotes the neutron density and $\rho(t)$ is the reactivity. $C(t),\lambda_k,\beta_k$ denote the concentration, the decay constant and the fraction of the $k$-group of precursors of the delayed neutrons, respectively. $\Lambda$ represents the prompt neutron generation time and $\beta$ is given by:
 
 $$\sum_{k=1}^{K}\beta_k=\beta. \tag{3}$$
-It is possible to develop an analytical solution for the case of a constant reactivity, i.e. $\rho(t)=\rho_0$ (Lewins, 1978, p. 60), and particularly it is possible to use the Laplace transform for such task. 
+It is possible to develop an analytical solution for the case of a constant reactivity, i.e. $\rho(t)=\rho_0$ (Lewins, 1978, p. 60), and particularly it is possible to use the Laplace transform for such task. The present codes were developed using this last technique, as well as a particular and non-trivial simplification of the solution. 
+
+## 2. Laplace transform of the system.
+After appliying the Laplace transform on both sides of Eq. (1) and Eq. (2), and manipuling the resultant expression, the following equations are obtained:
+
+$$\widetilde{n}\left(s\right)=\frac{n\left(0\right)+\sum_{k=1}^{K}\frac{\lambda_kC_k(0)}{s+\lambda_k}}{s-\frac{\rho-\beta}{\Lambda}-\frac{1}{\Lambda}\sum_{k=1}^{K}\frac{\lambda_k\beta_k}{s+\lambda_k}}$$
+
 
 

@@ -24,3 +24,5 @@ It is possible to develop an analytical solution for the case of a constant reac
 After appliying the Laplace transform on both sides of Eq. (1) and Eq. (2), and manipuling the resultant expression, the following equations are obtained:
 
 $$\widetilde{n}\left(s\right)=\frac{n\left(0\right)+\Omega}{s-\frac{\rho-\beta}{\Lambda}-\frac{1}{\Lambda}\Psi}$$
+
+where: $\Omega=\sum_{k=1}^{K}\frac{\lambda_kC_k(0)}{s+\lambda_k}$

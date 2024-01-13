@@ -11,4 +11,7 @@ The authors appreciate the financial support received from the Consejo Nacional 
 
 ## 1. Mathematical description of the problem
 The Neutron Point Kinetic Equations (NPKE) with $K$ groups of precursors of delayed neutrons can be written as follows:
-$$\frac{dC_k\left(t\right)}{dt}=\frac{\beta_k}{l}n\left(t\right)-\lambda_kC_k\left(t\right),\ \ 1\le\ k\le\ K$$
+
+$$\frac{dn\left(t\right)}{dt}=\frac{\rho\left(t\right)-\beta}{\Lambda}n\left(t\right)+\sum_{k=1}^{K}{\lambda_kC_k(t)}, \tag{1}$$
+
+$$\frac{dC_k\left(t\right)}{dt}=\frac{\beta_k}{l}n\left(t\right)-\lambda_kC_k\left(t\right),\ \ 1\le\ k\le\ K \tag{2}$$

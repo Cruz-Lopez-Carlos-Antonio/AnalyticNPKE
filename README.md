@@ -23,4 +23,4 @@ It is possible to develop an analytical solution for the case of a constant reac
 ## 2. Laplace transform of the system.
 After appliying the Laplace transform on both sides of Eq. (1) and Eq. (2), and manipuling the resultant expression, the following equations are obtained:
 
-$$\widetilde{n}\left(s\right)=\frac{n\left(0\right)+\sum_{n=1}^{\infty} 2^{-n}}{s-\frac{\rho-\beta}{\Lambda}-\frac{1}{\Lambda}\sum_{k=1}^{K}\frac{\lambda_k\beta_k}{s+\lambda_k}}$$
+$$\widetilde{n}\left(s\right)=\frac{n\left(0\right)+\Omega}{s-\frac{\rho-\beta}{\Lambda}-\frac{1}{\Lambda}\Psi}$$

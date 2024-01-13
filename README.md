@@ -10,4 +10,5 @@ Mathematical and algorithmical generalities of the codes are described in the fo
 The authors appreciate the financial support received from the Consejo Nacional de Ciencia y Tecnología, CONAHCYT, under the program “Estancias Posdoctorales por México, 2022”, with the project entitled: “Desarrollo de modelos fenomenológicos energéticos de orden fraccional, para la optimización y simulación en reactores nucleares de potencia”, by which the present development was possible.
 
 ## 1. Mathematical description of the problem
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
+The Neutron Point Kinetic Equations (NPKE) with $K$ groups of precursors of delayed neutrons can be written as follows:
+$$\frac{dC_k\left(t\right)}{dt}=\frac{\beta_k}{l}n\left(t\right)-\lambda_kC_k\left(t\right),\ \ 1\le\ k\le\ K&&

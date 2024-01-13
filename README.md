@@ -18,6 +18,6 @@ $$\frac{dC_k\left(t\right)}{dt}=\frac{\beta_k}{\Lambda}n\left(t\right)-\lambda_k
 where $n(t)$ denotes the neutron density and $\rho(t)$ is the reactivity. $C(t),\lambda_k,\beta_k$ denote the concentration, the decay constant and the fraction of the $k$-group of precursors of the delayed neutrons, respectively. $\Lambda$ represents the prompt neutron generation time and $\beta$ is given by:
 
 $$\sum_{k=1}^{K}\beta_k=\beta. \tag{3}$$
-For the case of a constant reactivity, i.e. $\rho(t)=\rho_0$, it is possible to develop an analytical solution 
+It is possible to develop an analytical solution for the case of a constant reactivity, i.e. $\rho(t)=\rho_0$ (Lewins, 1978, p. 60), and particularly it is possible to use the Laplace transform for such task. 
 
 

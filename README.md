@@ -17,6 +17,7 @@ $$\frac{dn\left(t\right)}{dt}=\frac{\rho\left(t\right)-\beta}{\Lambda}n\left(t\r
 $$\frac{dC_k\left(t\right)}{dt}=\frac{\beta_k}{\Lambda}n\left(t\right)-\lambda_kC_k\left(t\right),\ \ 1\le\ k\le\ K, \tag{2}$$
 where $n(t)$ denotes the neutron density and $\rho(t)$ is the reactivity. $C(t),\lambda_k,\beta_k$ denote the concentration, the decay constant and the fraction of the $k$-group of precursors of the delayed neutrons, respectively. $\Lambda$ represents the prompt neutron generation time and $\beta$ is given by:
 
-$$\sum_{k=1}^{K}\beta_k=\beta \tag{3}$$
+$$\sum_{k=1}^{K}\beta_k=\beta. \tag{3}$$
+For the case of a constant reactivity, i.e. $\rho(t)=\rho_0$, it is possible to develop an analytical solution 
 
 

@@ -89,7 +89,9 @@ As it can be observed, the sums given in Eq. (18) have an important restriction 
 $$\Omega=\set{\lambda_1,\lambda_2,\lambda_3,\lambda_4,\ldots,\lambda_{n-1},\lambda_n} \tag{21}$$
 $$\downarrow$$
 $$\Omega_3=\set{\lambda_1,\lambda_2,\lambda_4,\ldots,\lambda_{n-1},\lambda_n}. \tag{22}$$
-Once that such element was removed, it is possible to use the 
+Once that such element was removed, it is possible to use the Eq. (17) instead of the Eq. (18), using a new set of index as follows:
+$$\Omega_3=\left\{\lambda_1,\lambda_2,\lambda_4,\ldots,\lambda_{n-1},\lambda_n\right\}\rightarrow\Psi=\left\{\psi_{1,3},\psi_{2,3},\psi_{3,3}\ldots.,\psi_{n-1,3},\psi_{n,3}\right\ \tag{23}}$$
+
 
 
 

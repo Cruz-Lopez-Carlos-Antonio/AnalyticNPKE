@@ -36,6 +36,7 @@ One of the main novelties of the analytical solution developed in the mentioned 
 $$\widetilde{n}\left(s\right)=\left(\frac{n\left(0\right)Q\left(s\right)}{P\left(s\right)}+\frac{H\left(s\right)}{P\left(s\right)}\right) \tag{8}$$
 where the polynomials $Q(s), H(s)$ and $P(s)$ are given by:
 $$Q\left(s\right)=\prod_{k=1}^{K}{(s+\lambda_k)},\ H\left(s\right)=\sum_{k=1}^{K}{C_k(0)}\prod_{j=1,j\neq k}^{K}{(s+\lambda_k})$$
+a
 
 
 

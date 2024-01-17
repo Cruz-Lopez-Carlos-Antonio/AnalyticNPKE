@@ -112,7 +112,7 @@ The implementation of the Polynomials is given in the functions **Polyn_coeff_P*
 >
 >Polyn_Coeff_H $\leftarrow\set{\Omega,\mathcal{H},\rho,\mathcal{B},\Lambda,\left[C_1,C_2,\ldots,C_n\right]}$
 >
->Polyn_Coeff_Q $\leftarrow \set{\Omega,\mathcal{Q},\rho,\mathcal{B}}
+>Polyn_Coeff_Q $\leftarrow \set{\Omega,\mathcal{Q},\rho,\mathcal{B}}$
 
 where:
 > [!IMPORTANT]

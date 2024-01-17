@@ -59,7 +59,10 @@ $$+\sum_{i=3}^{K}{\left(S_{i,K}-uS_{i-1,K}-\frac{1}{\Lambda}\sum_{j=1}^{K}{\lamb
 and:
 $$H\left(s\right)=\left(\sum_{k=1}^{K}{\lambda_kC_k\left(0\right)}\right)s^{K-1}+\sum_{j=2}^{K}\left(\sum_{i=1}^{K}{\lambda_iC_i\left(0\right)}S_{j-1,K-1}^i\right)s^{K-j} ;\tag{15}$$
 and:
-$$Q\left(s\right)=s^K+\sum_{j=1}^{K}{S_{j,K}s^{K-j}} \tag{16}$$
+$$Q\left(s\right)=s^K+\sum_{j=1}^{K}{S_{j,K}s^{K-j}}, \tag{16}$$
+where $u=(\rho-\beta)/\Lambda$ and:
+
+
 
 
 

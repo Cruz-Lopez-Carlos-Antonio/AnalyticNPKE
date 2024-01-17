@@ -106,8 +106,8 @@ def Suma_(i,m, L):
        s = s+np.prod(np.array(k))
    return round(s,8)
 ```
-## 5.3 Polynomials for the case of K=6
-Since 
+## 5.3 Polynomials 
+The implementation of the Polynomials is given in the functions **Polyn_coeff_P**, **Polyn_Coeff_H**, and **Polyn_coeff_Q**, which require the following arguments:
 
 
 

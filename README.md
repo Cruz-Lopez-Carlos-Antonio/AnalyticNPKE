@@ -88,7 +88,8 @@ def Suma (m, L):
 As it can be observed, the sums given in Eq. (18) have an important restriction in each sum, which implies a disadvantages in terms of the execution's time. We developed an elementary way to improve this step, defining a new set of elements where the one that is given in the $i$-position is removed. For example, the element in the third position of the following set will be ommited:
 $$\Omega=\set{\lambda_1,\lambda_2,\lambda_3,\lambda_4,\ldots,\lambda_{n-1},\lambda_n} \tag{21}$$
 $$\downarrow$$
-$$\Omega_3=\set{\lambda_1,\lambda_2,\lambda_4,\ldots,\lambda_{n-1},\lambda_n} \tag{22}$$
+$$\Omega_3=\set{\lambda_1,\lambda_2,\lambda_4,\ldots,\lambda_{n-1},\lambda_n}. \tag{22}$$
+Once that such element was removed, it is possible to use the 
 
 
 

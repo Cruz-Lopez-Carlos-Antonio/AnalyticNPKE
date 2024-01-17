@@ -45,12 +45,12 @@ The Laplace transform system given in Eq. (7) and (8) can be solved using the He
 >**Theorem 1**:
 For two polynomials $L(s)$ and $M(s)$, where the degree of $L(s)$ is less than the degree of $M(s)$, it follows that:
 $$\frac{L\left(s\right)}{M(s)}=\sum_{i}\frac{L\left(m_i\right)}{M\prime(m_i)}\frac{1}{s-m_i} \tag{11}$$
-where $m_i$ denotes the roots of $M(s)$ and $M'(s)= dM(s)/ds$.<
+where $m_i$ denotes the roots of $M(s)$ and $M'(s)= dM(s)/ds$.
  
 Using the last theorem, the analytical solutions of the neutron density is given by:
 $$n\left(t\right)=\sum_{k=1}^{K+1}{\frac{n\left(0\right)Q\left(p_k\right)+H(p_k)}{P\prime(p_k)}\exp(p_kt)} \tag{12}$$
 where $p_k, 1\leq k \leq K+1$ are the roots of the polynomial $P(s)$ given in Eq. (10), and $P'(s)=dP(s)/ds$. The analytical solution for the precursors of the delayed neutrons is given by:
-$$C_k\left(t\right)=\frac{\beta_k}{\Lambda}\sum_{j=1}^{K+1}{\frac{n\left(0\right)Q\left(p_j\right)+H(p_j)}{P\prime(p_j)}\frac{\exp{\left(p_jt\right)}-\exp\funcapply(-\lambda_kt)}{p_j+\lambda_k}}+C_k\left(0\right)\exp\funcapply(-\lambda_kt) \tag{13}$$
+$$C_k\left(t\right)=\frac{\beta_k}{\Lambda}\sum_{j=1}^{K+1}{\frac{n\left(0\right)Q\left(p_j\right)+H(p_j)}{P\prime(p_j)}\frac{\exp{\left(p_jt\right)}-\exp(-\lambda_kt)}{p_j+\lambda_k}}+C_k\left(0\right)\exp(-\lambda_kt) \tag{13}$$
 
 
 

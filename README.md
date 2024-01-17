@@ -106,6 +106,8 @@ def Suma_(i,m, L):
        s = s+np.prod(np.array(k))
    return round(s,8)
 ```
+## 5.3 Polynomials for the case of K=6
+Since 
 
 
 

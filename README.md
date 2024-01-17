@@ -92,6 +92,20 @@ $$\Omega_3=\set{\lambda_1,\lambda_2,\lambda_4,\ldots,\lambda_{n-1},\lambda_n}. \
 Once that such element was removed, it is possible to use the Eq. (17) instead of the Eq. (18), using a new set of index as follows:
 $$\Omega_3=\set{\lambda_1,\lambda_2,\lambda_4,\ldots,\lambda_{n-1},\lambda_n}\rightarrow \Psi=\set{\psi_{1,3},\psi_{2,3},\psi_{3,3},\ldots,\psi_{n-1,3},\psi_{n,3}}. \tag{23}$$
 Finally, instead of using the Eq. (18), it is possible to use the Eq. (17) to the set $\Psi$, avoinding in such way the disadvantage restriction that as mentioned before. In the following code such procedure is implemented:
+### Code 2 ###
+```Python
+# Function S_(i,m,n)
+
+from itertools import combinations
+import numpy as np
+def Suma_(i,m, L):
+   L_i=L[:]     #Creates a copy of the list where the decay lambdas are storage.
+   L_i.remove(L[i])    #Removes the decay lambda in the i-position
+   s=0
+   for k in list(combinations(L_i,m)):
+       s = s+np.prod(np.array(k))
+   return round(s,8)
+```
 
 
 

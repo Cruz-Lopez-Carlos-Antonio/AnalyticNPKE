@@ -71,6 +71,30 @@ $$S_{2,n}=\sum_{k_1=1}^{n-2+1}\sum_{k_2=k_1+1}^{n-2+2}{\lambda_{k_1}\lambda_{k_2
 which can be expanded as:
 $$S_{2,n}=\sum_{k_1=1}^{n-1}\sum_{k_2=k_1+1}^{n}{\lambda_{k_1}\lambda_{k_2}}=\sum_{k_2=2}^{n}{\lambda_1\lambda_{k_2}}+\sum_{k_2=3}^{n}{\lambda_2\lambda_{k_2}}+\ldots+\sum_{k_2=n}^{n}{\lambda_{n-1}\lambda_{k_2}} \tag{20}$$
 which can be understood as the sum of all combinations of two elements of the set $\Omega=\set{\lambda_1,\lambda_2,\ldots,\lambda_n}$. Such observation can be extended to the general case, which can be proved using the Vieta's formulas (Vinberg, 2003, p. 89). One of the main computational contributions of our work was provided a simple algorithm for the Eq. (19), which is given in the following code:
+```MATLAB
+%------------ Partitions of integers for the neutron density------------
+%Section 5.1 of the paper
+%Input: a natural number, n
+%Output: all the partitios of the number n, considering 3 elements, i.e.
+%x_1+x_2+x_3=n. The partitions are stored as arrays [x1, x_2, x_3]
+function B = particiones(n)
+L=[];
+
+for k_0=0:n
+    for k_1=0:n
+        for k_2=0:n
+            if deltakronecker(k_0+k_1+k_2,n)==1
+                L = [L;k_0 k_1 k_2];
+            end
+        end
+    end
+end
+B =L;
+end
+%-------------------------------------------------------------------------
+%-------------------------------------------------------------------------
+
+```
 
 
 

@@ -34,6 +34,8 @@ $${\widetilde{C}}_k\left(s\right)=\frac{\beta}{\Lambda}\frac{\widetilde{n}\left(
 
 One of the main novelties of the analytical solution developed in the mentioned paper consists of writting the last expressions as:
 $$\widetilde{n}\left(s\right)=\left(\frac{n\left(0\right)Q\left(s\right)}{P\left(s\right)}+\frac{H\left(s\right)}{P\left(s\right)}\right) \tag{8}$$
-where the polynomials $Q(s), H(s)$ and $P(s)$ are polynomials given by:
+where the polynomials $Q(s), H(s)$ and $P(s)$ are given by:
+$$Q\left(s\right)=\prod_{k=1}^{K}{(s+\lambda_k)},\ \ $$
+
 
 

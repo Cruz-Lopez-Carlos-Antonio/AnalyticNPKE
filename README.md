@@ -115,6 +115,7 @@ The implementation of the Polynomials is given in the functions **Polyn_coeff_P*
 >Polyn_Coeff_Q $\leftarrow \set{\Omega,\mathcal{Q},\rho,\mathcal{B}}
 
 where:
+> [!IMPORTANT]
 >$\Omega=\set{\lambda_{1}\lambda_{2},\ldots,\lambda{n}},$ is the set that contains all the decay constants of the precursors of the delayed neutrons
 
 

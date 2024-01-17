@@ -108,9 +108,11 @@ def Suma_(i,m, L):
 ```
 ## 5.3 Polynomials 
 The implementation of the Polynomials is given in the functions **Polyn_coeff_P**, **Polyn_Coeff_H**, and **Polyn_coeff_Q**, which require the following arguments:
-$$\text{"Polyn_coeff"}$$
+$$\mathrm{Polyn_coeff_P}$$
+$$\text{Polyn_coeff}$$
 
 \leftarrow \set{\Omega, \mathcal{P}, \mathcal{P}^\prime,\rho,\mathcal{B},\Lambda}$$
+
 
 
 

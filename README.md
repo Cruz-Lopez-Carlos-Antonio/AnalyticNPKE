@@ -55,7 +55,9 @@ $$C_k\left(t\right)=\frac{\beta_k}{\Lambda}\sum_{j=1}^{K+1}{\frac{n\left(0\right
 ## Simplification of the polynomials.
 One of the most important contribution of our work (Cruz-López et al., 2023) consists of simplifying the Polynomials given in Eq. (9) and Eq. (10), which can be conveniently written as:
 $$P\left(s\right)=s^{K+1}+\left(S_{1,K}-u\right)s^K+\left(S_{2,K}-uS_{1,K}-\frac{1}{\Lambda}\sum_{i=1}^{K}{\lambda_i\beta_i}\right)s^{K-1}$$
-$$+\sum_{i=3}^{K}{\left(S_{i,K}-uS_{i-1,K}-\frac{1}{\Lambda}\sum_{j=1}^{K}{\lambda_j\beta_jS_{i-2,K-1}^j}\right)s^{K+1-i}}-uS_{K,K}-\frac{1}{\Lambda}\sum_{k=1}^{K}{\lambda_k\beta_kS_{K-1,K-1}^k} \tag{14}$$
+$$+\sum_{i=3}^{K}{\left(S_{i,K}-uS_{i-1,K}-\frac{1}{\Lambda}\sum_{j=1}^{K}{\lambda_j\beta_jS_{i-2,K-1}^j}\right)s^{K+1-i}}-uS_{K,K}-\frac{1}{\Lambda}\sum_{k=1}^{K}{\lambda_k\beta_kS_{K-1,K-1}^k}; \tag{14}$$
+and:
+$$H\left(s\right)=\left(\sum_{k=1}^{K}{\lambda_kC_k\left(0\right)}\right)s^{K-1}+\sum_{j=2}^{K}\left(\sum_{i=1}^{K}{\lambda_iC_i\left(0\right)}S_{j-1,K-1}^i\right)s^{K-j} \tag{15}$$
 
 
 

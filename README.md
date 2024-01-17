@@ -83,8 +83,9 @@ def Suma (m, L):
    for k in list(combinations(L,m)):
        s = s+np.prod(np.array(k))
    return round(s,8)
-
 ```
+## 5.2 Shifted Sums.
+As it can be observed, the sums given in Eq. (18) have an important restriction in each sum, which implies a disadvantages in terms of the execution's time. We developed an elementary way to improve 
 
 
 

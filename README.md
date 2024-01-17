@@ -85,7 +85,7 @@ def Suma (m, L):
    return round(s,8)
 ```
 ## 5.2 Shifted Sums.
-As it can be observed, the sums given in Eq. (18) have an important restriction in each sum, which implies a disadvantages in terms of the execution's time. We developed an elementary way to improve 
+As it can be observed, the sums given in Eq. (18) have an important restriction in each sum, which implies a disadvantages in terms of the execution's time. We developed an elementary way to improve this step, defining a new set of elements where the one that is given in the $i$-position is removed. 
 
 
 

@@ -66,7 +66,8 @@ $$S_{m,n}^i=\sum_{k_1=1,\ k_1\neq i}^{n-m+1}{\ \sum_{k_2=k_1+1,k_2\neq i}^{n-m+2
 
 ## 5. Algorithmical implementation.
 ## 5.1 Sums
-The first step in the algorithmical implementation consists of building a code for the sum $S_{m,n}$ given in Eq. (18). Such expression can be interpreted as the sum of the 
+The first step in the algorithmical implementation consists of building a code for the sum $S_{m,n}$ given in Eq. (18). Such expression can be interpreted in combinatorial terms, which allows programming it in a straighforward way. For example for the case of $m=2$, it follows that:
+$$S_{2,n}=\sum_{k_1=1}^{n-2+1}\sum_{k_2=k_1+1}^{n-2+2}{\lambda_{k_1}\lambda_{k_2}}$$
 
 
 

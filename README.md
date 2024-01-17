@@ -117,7 +117,7 @@ The implementation of the Polynomials is given in the functions **Polyn_coeff_P*
 where:
 > [!IMPORTANT]
 > - $\Omega=\set{\lambda_{1}\lambda_{2},\ldots,\lambda{n}},$ is the set that contains all the decay constants of the precursors of the delayed neutrons, which is denoted by L in the Pytho's code.
-> -$\mathcal{P}$ is a list (or vector) whose elements are the coefficients of the $P(s)$ polynomial given in Eq. (14)
+> - $\mathcal{P}$ is a list (or vector) whose elements are the coefficients of the $P(s)$ polynomial given in Eq. (14)
 
 
 

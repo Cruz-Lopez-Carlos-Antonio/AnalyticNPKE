@@ -35,8 +35,9 @@ $${\widetilde{C}}_k\left(s\right)=\frac{\beta}{\Lambda}\frac{\widetilde{n}\left(
 One of the main novelties of the analytical solution developed in the mentioned paper consists of writting the last expressions as:
 $$\widetilde{n}\left(s\right)=\left(\frac{n\left(0\right)Q\left(s\right)}{P\left(s\right)}+\frac{H\left(s\right)}{P\left(s\right)}\right) \tag{8}$$
 where the polynomials $Q(s), H(s)$ and $P(s)$ are given by:
-$$Q\left(s\right)=\prod_{k=1}^{K}{(s+\lambda_k)},\ H\left(s\right)=\sum_{k=1}^{K}{C_k(0)}\prod_{j=1,j\neq k}^{K}{(s+\lambda_k})$$
-a
+$$Q\left(s\right)=\prod_{k=1}^{K}{(s+\lambda_k)},\ H\left(s\right)=\sum_{k=1}^{K}{C_k(0)}\prod_{j=1,j\neq k}^{K}{(s+\lambda_k}) \tag{9}$$
+and:
+$$P\left(s\right)=s\prod_{k=1}^{K}{(s+\lambda_k)}-\frac{\rho-\beta}{\Lambda}\prod_{k=1}^{K}\left(s+\lambda_k\right)-\frac{1}{\Lambda}\sum_{k=1}^{K}{\lambda_k\beta_k}\prod_{j=1,j\neq k}^{K}{(s+\lambda_j})$$
 
 
 

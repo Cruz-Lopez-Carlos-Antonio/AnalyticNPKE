@@ -48,7 +48,11 @@ $$\frac{L\left(s\right)}{M(s)}=\sum_{i}\frac{L\left(m_i\right)}{M\prime(m_i)}\fr
 where $m_i$ denotes the roots of $M(s)$ and $M'(s)= dM(s)/ds$.<
  
 Using the last theorem, the analytical solutions of the neutron density is given by:
-$$n\left(t\right)=\sum_{k=1}^{K+1}{\frac{n\left(0\right)Q\left(p_k\right)+H(p_k)}{P\prime(p_k)}\exp\funcapply(p_kt)} \tag{12}$$
+$$n\left(t\right)=\sum_{k=1}^{K+1}{\frac{n\left(0\right)Q\left(p_k\right)+H(p_k)}{P\prime(p_k)}\exp(p_kt)} \tag{12}$$
+where $p_k, 1\leq k \leq K+1$ are the roots of the polynomial $P(s)$ given in Eq. (10), and $P'(s)=dP(s)/ds$. The analytical solution for the precursors of the delayed neutrons is given by:
+
+
+
 
 
 

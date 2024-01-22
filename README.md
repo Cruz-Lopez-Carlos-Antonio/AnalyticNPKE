@@ -122,7 +122,7 @@ where:
 > - $\rho$ is the reactivity, which is considered as constant and it is represented by **rho**.
 > - $\mathcal{B}$ is a list (or vector) whose elements are the fractions $\beta_{k},1\leq k \leq K$, of the precursors of the delayed neutrons.
 > - $\Lambda* has the meaning described in Section 2.
-> - $\mathcal{H}$ is a list (or vector) whose elements are the coefficients of the $H(s)$ polynomial given in Eq. 
+> - $\mathcal{H}$ is a list (or vector) whose elements are the coefficients of the $H(s)$ polynomial given in Eq. (15), 
 
 
 

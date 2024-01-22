@@ -118,11 +118,11 @@ where:
 > [!IMPORTANT]
 > - $\Omega=\set{\lambda_{1}\lambda_{2},\ldots,\lambda{n}},$ is the set that contains all the decay constants of the precursors of the delayed neutrons, which is denoted by **L** in the Pytho's code.
 > - $\mathcal{P}$ is a list (or vector) whose elements are the coefficients of the $P(s)$ polynomial given in Eq. (14), which is denoted by the **C_P** variable in the codes
-> - $\mathcal{P}^\prime$ is a list (or vector) that contains the coefficients of the derivative of $P(s)$, given in Eq. (14), that is represented by **C_P_d**
-> - $\rho$ is the reactivity, which is considered as constant and it is represented by **rho**
+> - $\mathcal{P}^\prime$ is a list (or vector) that contains the coefficients of the derivative of $P(s)$, given in Eq. (14), that is represented by **C_P_d**.
+> - $\rho$ is the reactivity, which is considered as constant and it is represented by **rho**.
 > - $\mathcal{B}$ is a list (or vector) whose elements are the fractions $\beta_{k},1\leq k \leq K$, of the precursors of the delayed neutrons.
 > - $\Lambda* has the meaning described in Section 2.
-> - $\mathcal{H}
+> - $\mathcal{H}$ is a list (or vector) whose elements are the coefficients of the $H(s)$ polynomial given in Eq. 
 
 
 

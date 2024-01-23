@@ -121,9 +121,10 @@ where:
 > - $\mathcal{P}^\prime$ is a list (or vector) that contains the coefficients of the derivative of $P(s)$, given in Eq. (14), that is represented by **C_P_d**.
 > - $\rho$ is the reactivity, which is considered as constant and it is represented by **rho**.
 > - $\mathcal{B}$ is a list (or vector) whose elements are the fractions $\beta_{k},1\leq k \leq K$, of the precursors of the delayed neutrons.
-> - $\Lambda* has the meaning described in Section 2.
+> - $\Lambda$ has the meaning described in Section 2.
 > - $\mathcal{H}$ is a list (or vector) whose elements are the coefficients of the $H(s)$ polynomial given in Eq. (15),
-> - $[C_1(0),C_2(0),\ldots,C_n(0)]$ is a vector whose entries are the initial conditions of the groups of precursors of delayed neutrons$
+> - $[C_1(0),C_2(0),\ldots,C_n(0)]$ is a vector whose entries are the initial conditions of the groups of precursors of delayed neutrons. Such vector is denoted in the code as C_init.
+> - $Q(s)$ is a list (or vector) whose elements are the coefficients of the polynomial given in Eq.  
 
 
 

@@ -126,7 +126,36 @@ where:
 > - $[C_1(0),C_2(0),\ldots,C_n(0)]$ is a vector whose entries are the initial conditions of the groups of precursors of delayed neutrons. Such vector is denoted in the code as **C_init**.
 > - $Q(s)$ is a list (or vector) whose elements are the coefficients of the polynomial given in Eq.(9), which is given by **C_q** in the code. 
 
-## 5.4 Flow diagram of the Python code's
+## 5.4 Codes that compute the polynomials coefficients.
+The following three codes computes the coefficients of the polynomials that are used in the analytical solution.
+**Polyn_coeff_P**
+```Python
+# Function Polyn_coeff_P(L,C_P,C_P_d, rho,Betas,l)
+
+import numpy as np
+def Polyn_coeff_P(L,C_P, C_P_d, rho, Betas,l):
+   s_1, s_2, s_3, s_4 = 0, 0, 0, 0                      #Variables used for sums
+   bet_tot = np.sum(np.array(Betas)) #β = n
+   i=1 βi
+   u = (rho-bet_tot)/l #u = (ρ − β) /l
+   C_P.append(1)                                        # Coefficient of xK+1
+   C_P.append(Suma(1,L)-u)                              # Coefficient of xK
+   for i in range(len(L)):
+       s_1 = s_1 + L[i] ∗ Betas[i]
+   C_P.append(Suma(2,L)-u*Suma(1,L)-(1/l)*s_1) #Coefficient of xK−1
+   for i in range(3,len(L)+1):
+       s_5 = 0
+       for j in range(len(L)):
+           s_5 = s_5 + L[j]*Betas[j]*Suma_i(j,i − 2, L)
+       C_P.append(Suma(i,L)-u*Suma(i-1,L)-(1/l)*s_5) #Coefficients of xK−2,..., x1
+   for i in range(len(L)):
+       s_3 = s_3 + L[i]*Betas[i]*Suma_i(i,len(L) − 1, L)
+   C_P.append(-u*Suma(len(L),L)-(1/l)*s_3) #Constant coefficient
+   for k in range(len(C_P)-1):
+       C_P_d.append(C_P[k]*(len(L)+1-k)) #Coefficients of P (x)
+```
+
+## 5.5 Flow diagram of the Python code's
 <details><summary>CLICK HERE to expand the diagram.</summary>
 <p>
 

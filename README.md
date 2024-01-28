@@ -126,7 +126,7 @@ where:
 > - $[C_1(0),C_2(0),\ldots,C_n(0)]$ is a vector whose entries are the initial conditions of the groups of precursors of delayed neutrons. Such vector is denoted in the code as **C_init**.
 > - $Q(s)$ is a list (or vector) whose elements are the coefficients of the polynomial given in Eq.(9), which is given by **C_q** in the code. 
 
-
+![image](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE/blob/main/Imagen%201.jpg)
 
 
 

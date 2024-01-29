@@ -205,7 +205,7 @@ The AnalyticNPKE-Insertion code will be used to reproduce the data reported by N
 > [!IMPORTANT]
 >  Nuclear parameter | Value     | Nuclear parameter | Value           |
 | ------------- | ------------- | -------------     | --------------  |
-| $\lambda_1$           | 0.000125591s  | lambda            | 0.0769478s^(-1) |
+| $\lambda_1$   | 0.000125591s  | lambda            | 0.0769478s^(-1) |
 | PNL           | 0.975         | beta              |0.00645          |
 | rho           |0.002          |Lambda             |0.00005s         |
 

@@ -202,7 +202,7 @@ A flow diagram of the dependence of the codes is provided in the following image
 The code AnalyticNPKE-Ramp solves the system given in Eq. (13) and Eq. (14). It is provided in the text files of the present repository.
 ### 6.1 An application. 
 The AnalyticNPKE-Insertion code will be used to reproduce the data reported by Nahla (2010, p. 1626). For such scenario the input parameters are the following: 
-|Nuclear parameter | Value  $s^(-1)$| Nuclear parameter | Value           |
+|Nuclear parameter | Value  $\mathrm{s^{-1}}$| Nuclear parameter | Value           |
 | ------------- | ------------- | -------------     | --------------  |
 | $\lambda_1$   | 0.000125591s  | $\beta_1$         | 0.0769478s^(-1) |
 | $\lambda_2$   | 0.975         | $\beta_2$         |0.00645          |

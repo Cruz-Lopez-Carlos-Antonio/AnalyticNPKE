@@ -213,6 +213,17 @@ The AnalyticNPKE-Insertion code will be used to reproduce the data reported by N
 
 and $\beta$=0.0075 and $\Lambda$=0.0005. A negative reactivity given by $\rho$=-0.5 dollars will be used. 
 ### Input:
+```Python
+# Function S_(m,n)
+
+from itertools import combinations
+import numpy as np
+def Suma (m, L):
+   s = 0
+   for k in list(combinations(L,m)):
+       s = s+np.prod(np.array(k))
+   return round(s,8)
+```
 
 
 

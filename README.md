@@ -155,9 +155,26 @@ def Polyn_coeff_P(L,C_P, C_P_d, rho, Betas,l):           #The function returns t
        C_P_d.append(C_P[k]*(len(L)+1-k))                 #Coefficients of dP(x)/dx
 ```
 ### Code 4: Polyn_coeff_H
-This code generates the coefficients of the $H(s)$ polynomial that is given by Eq.(15). It requires the same input of the **Polyn_coeff_P**, but in addition it needs the initial conditions of the precursors of the delayed neutrons given as a vector $[C_1(0),C_2(0),...,C_n(0)]. 
+This code generates the coefficients of the $H(s)$ polynomial that is given by Eq.(15). It requires the same input of the **Polyn_coeff_P**, but in addition it needs the initial conditions of the precursors of the delayed neutrons given as a vector $[C_1(0),C_2(0),...,C_n(0)]$. 
 > [!IMPORTANT]
 > -The **Polyn_coeff_P** is the only code related to the polynomials that requieres the use of initial conditions. It will be very important for cases with non-constant reactivities, as it will be discussed in Section 6.2.
+
+```Python
+
+def Polyn_coeff_H(L, C_H, rho, Betas, l, C_init):  #Functions that returns the coefficients of the polynomial H given in Eq. (15)
+     bet_tot = np.sum(np.array(Betas))                         #β = n
+     u = (rho-bet_tot)/l #u = (ρ − β) /l
+     s,a = 0, 1
+     for i in range(len(C_init)):
+         a = L[i] ∗ C_init[i] #K                                #Product of lambda by the initial conditions of C_i(t)
+         s = s + a
+     C_H.append(s)                                              # Coefficient of x^k
+     for j in range(2,len(L)+1):
+         b = 0
+         for i in range(len(L)):
+             b = b + L[i] ∗ C_init[i] ∗ Suma_i(i,j − 1, L)       
+     C_H.append(b)
+```
 
 ## 5.5 Flow diagram of the Python code's
 <details><summary>CLICK HERE to expand the diagram.</summary>

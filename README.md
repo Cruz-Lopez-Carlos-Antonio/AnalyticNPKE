@@ -161,14 +161,14 @@ This code generates the coefficients of the $H(s)$ polynomial that is given by E
 
 ```Python
 
-def Polyn_coeff_H(L, C_H, rho, Betas, l, C_init):  #Functions that returns the coefficients of the polynomial H given in Eq. (15)
+def Polyn_coeff_H(L, C_H, rho, Betas, l, C_init):              #Functions that returns the coefficients of the polynomial H given in Eq. (15)
      bet_tot = np.sum(np.array(Betas))                         #β = n
-     u = (rho-bet_tot)/l #u = (ρ − β) /l
+     u = (rho-bet_tot)/l                                       #u = (ρ − β) /l
      s,a = 0, 1
      for i in range(len(C_init)):
-         a = L[i] ∗ C_init[i] #K                                #Product of lambda by the initial conditions of C_i(t)
+         a = L[i] ∗ C_init[i]                                  #Product of lambda by the initial conditions of C_i(t)
          s = s + a
-     C_H.append(s)                                              # Coefficient of x^k
+     C_H.append(s)                                             # Coefficient of x^k
      for j in range(2,len(L)+1):
          b = 0
          for i in range(len(L)):

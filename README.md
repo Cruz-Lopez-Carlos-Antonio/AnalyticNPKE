@@ -187,7 +187,8 @@ def Polyn_coeff_Q(L, C_q,rho,Betas,l):              #Functions that returns the 
         C_q.append(Suma(j+1,L))
 ```
 
-## 5.5 Flow diagram of the Python code's
+## 5.4 Flow diagram of the Python code's
+A flow diagram of the dependence of the codes is provided in the following image. It is worth mentioning that this scheme does not show the discretization method described in Section **6.2**
 <details><summary>CLICK HERE to expand the diagram.</summary>
 <p>
 

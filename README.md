@@ -197,8 +197,11 @@ A flow diagram of the dependence of the codes is provided in the following image
 
 </p>
 </details>
+
 ### 6. AnalyticNPKE-Ramp.py
-The code AnalyticNPKE-Ramp solves the system of 
+The code AnalyticNPKE-Ramp solves the system given in Eq. (13) and Eq. (14). It is provided in the text files of the present repository.
+## 6.1 An application. 
+
 
 
 

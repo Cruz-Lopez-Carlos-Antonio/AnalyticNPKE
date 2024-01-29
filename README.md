@@ -211,6 +211,8 @@ The AnalyticNPKE-Insertion code will be used to reproduce the data reported by N
 | $\lambda_5$   |1.40           | $\beta_5$         |0.00096          |
 | $\lambda_6$   |3.87           | $\beta_6$         |0.000195         |
 
+and $\beta$=0.0075 and $\Lambda$=0.0005. A negative reactivity given by $\rho$=-0.5 dollars will be used. 
+### Input:
 
 
 

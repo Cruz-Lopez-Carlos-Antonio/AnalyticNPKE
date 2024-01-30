@@ -222,7 +222,7 @@ The **AnalyticNPKE-Insertion** code will be used to reproduce part of the data r
 | $\lambda_5$   |1.40           | $\beta_5$         |0.00096          |
 | $\lambda_6$   |3.87           | $\beta_6$         |0.000195         |
 
-and $\beta$=0.0075 and $\Lambda$=0.0005. A negative reactivity given by $\rho$=1 dollar will be used as well as a time of $t$=10 seconds. 
+and $\beta$=0.0075 and $\Lambda$=0.0005. A negative reactivity given by $\rho$=-1 dollar will be used as well as a time of $t$=10 seconds. 
 ### Input:
 
 <details><summary>CLICK HERE to expand the Implementation of the Mittag-Leffler in neutron density calculations.</summary>

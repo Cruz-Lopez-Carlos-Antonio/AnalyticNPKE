@@ -266,7 +266,7 @@ for k in range(len(Betas)):
 Neutron density: 0.23611064482555608
 ```
 which coincides in the first seven digits with the data reported by Nahla
-$$\underbrace{n_0\left(10\ \mathrm{s}\right)=0.23611064}_{\mathrm{Computed \with \the \code}, \ \ \ \underbrace{n_0(10 \mathrm{s})=0.2361107 }$$
+
 
 
 

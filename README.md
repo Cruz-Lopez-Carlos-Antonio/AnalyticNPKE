@@ -227,17 +227,6 @@ and $\beta$=0.0075 and $\Lambda$=0.0005. A negative reactivity given by $\rho$=1
 <details><summary>CLICK HERE to expand the Input of the Application.</summary>
 <p>
 ```Python
-#************************Execution***************************************
-#************************************************************************
-#************************************************************************
-
-#***********************Input Parameters ********************************
-#L = list with lambda constants
-#Betas = list with fractions of the precursors
-#Lambda_m is the prompt neutron generation time
-#Beta_total is computed by default
-#Reactivity can be expressed in dollars or numerically
-
 L=[0.0127, 0.0317, 0.115, 0.311,1.40, 3.87]
 Betas = [0.000285,0.0015975,0.00141,0.0030525,0.00096,0.000195]
 Lambda_m=0.0005

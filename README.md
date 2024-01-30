@@ -285,7 +285,20 @@ The code **AnalyticNPKE-Ramp.py**, that is provided in the repository, includes 
 
 > + Since the polynomials depends on the reactivity, they must to be updated in each step.
 > + It is necessary to solve the equations for the precursors because the vector $C=[C_1(0),C_2(0),...,C_m(0)]$ is required for each time step.
-> + The solution is provided as a vector who contains not only the Target time, but also the 
+> + The solution is provided as a vector who contains not only the Target time, but also the solution for each time step.
+### 7.1 Application. 
+The **AnalyticNPKE-Ramp.py** will be used to reproduce data reported by Nahla (2010, p. 9), For such scenario the input parameters are the following: 
+|Nuclear parameter | Value  ($\mathrm{s^{-1}}$)| Nuclear parameter | Value           |
+| ------------- | ------------- | -------------     | --------------  |
+| $\lambda_1$   |0.0127         | $\beta_1$         |0.000266         |
+| $\lambda_2$   |0.0317         | $\beta_2$         |0.001491         |
+| $\lambda_3$   |0.115          | $\beta_3$         |0.001316         |
+| $\lambda_4$   |0.311          | $\beta_4$         |0.002849         |
+| $\lambda_5$   |1.40           | $\beta_5$         |0.000896         |
+| $\lambda_6$   |3.87           | $\beta_6$         |0.000182         |
+
+and $\beta$=0.007 and $\Lambda$= 0.00002 $\mathrm{s}$. A negative reactivity given by $\rho$=0.1 dollar will be used as well as a time of $t$=2 seconds. 
+
 
 
 

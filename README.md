@@ -266,6 +266,21 @@ for k in range(len(Betas)):
 Neutron density: 0.23611064482555608
 ```
 which coincides in the first seven digits with the data reported by Nahla (2010, p. 8). 
+## 7. AnalyticNPKE-Ramp.py
+Even when the analytical solution was developed assuming a constant reactivity, it also can be used to more general cases. For such scenarios it is necessary to discretize the time in small intervals,
+
+assuming a constant value of the reactivity in each of them, given by:
+
+$$\bar{\rho}=\frac{\ \rho\left(t_n\right)+\rho(t_{n-1})}{2} \tag{22}$$
+
+where the limit and upper times are defined as:
+
+$$t_{n}=\Delta t \cdot n = h \cdot n$$
+
+$$t_{n-1}=\Delta t \cdot (n-1) = h \cdot (n-1) \tag{23}$$
+
+Therefore, it follows that Eq. (22) is reduced to:
+The code **AnalyticNPKE-Ramp** solves the system given in Eq. (13) and Eq. (14). It is provided in the text files of the present repository.
 
 
 

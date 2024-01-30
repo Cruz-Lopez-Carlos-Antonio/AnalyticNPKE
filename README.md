@@ -224,17 +224,42 @@ The **AnalyticNPKE-Insertion** code will be used to reproduce part of the data r
 
 and $\beta$=0.0075 and $\Lambda$=0.0005. A negative reactivity given by $\rho$=1 dollar will be used as well as a time of $t$=10 seconds. 
 ### Input:
+<details><summary>CLICK HERE to expand the Input of the Application.</summary>
+<p>
 ```Python
-# Function S_(m,n)
+#************************Execution***************************************
+#************************************************************************
+#************************************************************************
 
-from itertools import combinations
-import numpy as np
-def Suma (m, L):
-   s = 0
-   for k in list(combinations(L,m)):
-       s = s+np.prod(np.array(k))
-   return round(s,8)
+#***********************Input Parameters ********************************
+# L = list with lambda constants
+# Betas = list with fractions of the precursors
+# Lambda_m is the prompt neutron generation time
+# Beta_total is computed by default
+# Reactivity can be expressed in dollars or numerically
+
+L=[0.0127, 0.0317, 0.115, 0.311,1.40, 3.87]
+Betas = [0.000285,0.0015975,0.00141,0.0030525,0.00096,0.000195]
+Lambda_m=0.0005
+Beta_total = sum(Betas) #This line does not require modifications
+rho = -Beta_total       #Reactivity expressed in dollars
+time = 10
+
+#********************* Initial conditions ******************************
+# n_0= neutron density at t=0
+# C_init = list with the initial conditions for the precursors
+n_0=1
+C_init = [ ]
+
+#************* Initial conditions given by n(0)b_k/(Lambda_m*lambda_k)
+for k in range(len(Betas)):
+    C_init.append((Betas[k]/(L[k]*Lambda_m))*n_0)
 ```
+
+
+</p>
+</details>
+
 
 
 

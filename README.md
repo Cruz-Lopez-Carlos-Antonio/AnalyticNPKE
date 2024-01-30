@@ -186,8 +186,9 @@ def Polyn_coeff_Q(L, C_q,rho,Betas,l):              #Functions that returns the 
      for j in range(len(L)):
         C_q.append(Suma(j+1,L))
 ```
-## 5.5 Function that evaluates the Polynomials.
+## 5.4 Evaluation of the Polynomials.
 Since the analytical solution requires the evaluation of the polynomials, it is necessary to introduce a brief routine that carries-out this procedure. This routine requires the coefficient of the polynomial as well as the value where they will be evaluated. The following code contains this function:
+## Code 6. Polynomial_evaluation.
 ```Python
 
 def Polynomial_evaluation(Coefficients, value):   #Function that evaluates the polynomials.
@@ -197,7 +198,7 @@ def Polynomial_evaluation(Coefficients, value):   #Function that evaluates the p
     return(a)
 ```
 
-## 5.4 Flow diagram of the Python code's
+## 5.5 Flow diagram of the Python code's
 A flow diagram of the dependence of the codes is provided in the following image. It is worth mentioning that this scheme does not show the discretization method described in Section **6.2**
 <details><summary>CLICK HERE to expand the diagram.</summary>
 <p>

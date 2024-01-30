@@ -283,9 +283,9 @@ $$n_{t_{n-1}}(t_n)=n_{t_n}(0),\ \ \ \ C_{k_{t_{n-1}}}(t_n)=C_{k_{t_n}}(0), \tag{
 in other words, the value of the variables at the end of an interval are the initial conditions for the next one. 
 The code **AnalyticNPKE-Ramp.py**, that is provided in the repository, includes the last methodology. This code is similar to **AnalyticNPKE-Insertion.py**, considering the following modifications:
 
->+ Since the polynomials depends on the reactivity, they must to be updated in each step.
-+ It is necessary to solve the equations for the precursors because the vector $C=[C_1(0),C_2(0),...,C_m(0)]$ is required for each time step.
-+ The solution is provided as a vector who contains not only the Target time, but also the 
+> + Since the polynomials depends on the reactivity, they must to be updated in each step.
+> + It is necessary to solve the equations for the precursors because the vector $C=[C_1(0),C_2(0),...,C_m(0)]$ is required for each time step.
+> + The solution is provided as a vector who contains not only the Target time, but also the 
 
 
 

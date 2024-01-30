@@ -82,9 +82,9 @@ def n_solution(L,Betas,Lambda_m,n_0,C_init,rho,t):
     Coefficients_P = [ ]
     Coefficients_dP = [ ]
     Coefficients_H = [ ]
-    Coefficients_Q = [ ]
+    Coefficients_Q = [ ]                                #Building the coefficients
 
-                                                        #Building the coefficients
+                                                        
     Polyn_coeff_P(L,Coefficients_P, Coefficients_dP, rho, Betas,Lambda_m)
     Polyn_coeff_H(L,Coefficients_H, rho, Betas, Lambda_m, C_init)
     Polyn_coeff_Q(L,Coefficients_Q,rho,Betas,Lambda_m)

@@ -342,7 +342,8 @@ Two outputs are generated. The first one is provided by the Python's shell, wher
 
 <details><summary>CLICK HERE to expand the Outout of the application of AnalyticNPKE-Ramp.py</summary>
 <p>
-```
+ 
+```Python
 The last 30 values are given. The complete output is given in the txt file. 
 ...
 1.97 1.330516908276276

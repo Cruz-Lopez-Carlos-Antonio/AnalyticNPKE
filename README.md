@@ -65,7 +65,7 @@ $$S_{m,n}=\sum_{k_1=1}^{n-m+1}\sum_{k_2=k_1+1}^{n-m+2}\cdots\sum_{k_m=k_{m-1}+1}
 $$S_{m,n}^i=\sum_{k_1=1,\ k_1\neq i}^{n-m+1}{\ \sum_{k_2=k_1+1,k_2\neq i}^{n-m+2}\cdots}\sum_{k_m=k_{m-1}+1,\ k_m\neq i}^{n}{\lambda_{k_1}\lambda_{k_2}\cdots\lambda_{k_m}}. \tag{18}$$
 
 ## 5. Algorithmical implementation.
-## 5.1 Sums
+### 5.1 Sums
 The first step in the algorithmical implementation consists of building a code for the sum $S_{m,n}$ given in Eq. (18). Such expression can be interpreted in combinatorial terms, which allows programming it in a straighforward way. For example for the case of $m=2$, it follows that:
 $$S_{2,n}=\sum_{k_1=1}^{n-2+1}\sum_{k_2=k_1+1}^{n-2+2}{\lambda_{k_1}\lambda_{k_2}} \tag{19}$$
 which can be expanded as:
@@ -84,7 +84,7 @@ def Suma (m, L):
        s = s+np.prod(np.array(k))
    return round(s,8)
 ```
-## 5.2 Shifted Sums.
+### 5.2 Shifted Sums.
 As it can be observed, the sums given in Eq. (18) have an important restriction in each sum, which implies a disadvantages in terms of the execution's time. We developed an elementary way to improve this step, defining a new set of elements where the one that is given in the $i$-position is removed. For example, the element in the third position of the following set will be ommited:
 $$\Omega=\set{\lambda_1,\lambda_2,\lambda_3,\lambda_4,\ldots,\lambda_{n-1},\lambda_n} \tag{21}$$
 $$\downarrow$$
@@ -106,7 +106,7 @@ def Suma_(i,m, L):
        s = s+np.prod(np.array(k))
    return round(s,8)
 ```
-## 5.3 Polynomials 
+### 5.3 Polynomials 
 The implementation of the Polynomials is given in the functions **Polyn_coeff_P**, **Polyn_Coeff_H**, and **Polyn_coeff_Q**, which require the following arguments:
 >Polyn_coeff_P $\leftarrow \set{\Omega, \mathcal{P}, \mathcal{P}^\prime,\rho,\mathcal{B},\Lambda}$
 >
@@ -186,9 +186,9 @@ def Polyn_coeff_Q(L, C_q,rho,Betas,l):              #Functions that returns the 
      for j in range(len(L)):
         C_q.append(Suma(j+1,L))
 ```
-## 5.4 Evaluation of the Polynomials.
+### 5.4 Evaluation of the Polynomials.
 Since the analytical solution requires the evaluation of the polynomials, it is necessary to introduce a brief routine that carries-out this procedure. This routine requires the coefficient of the polynomial as well as the value where they will be evaluated. The following code contains this function:
-## Code 6. Polynomial_evaluation.
+### Code 6. Polynomial_evaluation.
 ```Python
 
 def Polynomial_evaluation(Coefficients, value):   #Function that evaluates the polynomials.
@@ -198,7 +198,7 @@ def Polynomial_evaluation(Coefficients, value):   #Function that evaluates the p
     return(a)
 ```
 
-## 5.5 Flow diagram of the Python code's
+### 5.5 Flow diagram of the Python code's
 A flow diagram of the dependence of the codes is provided in the following image. It is worth mentioning that this scheme does not show the discretization method described in Section **6.2**
 <details><summary>CLICK HERE to expand the diagram.</summary>
 <p>

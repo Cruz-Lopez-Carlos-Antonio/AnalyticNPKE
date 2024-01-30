@@ -294,7 +294,7 @@ The **AnalyticNPKE-Ramp.py** will be used to reproduce data reported by Nahla (2
 | $\lambda_5$   |1.40           | $\beta_5$         |0.000896         |
 | $\lambda_6$   |3.87           | $\beta_6$         |0.000182         |
 
-and $\beta$=0.007 and $\Lambda$= 0.00002 $\mathrm{s}$. A negative reactivity given by $\rho$=0.1 dollar will be used as well as a time of $t$=2 seconds. The corresponding input in given in the following section.
+and $\beta$=0.007 and $\Lambda$= 0.00002 $\mathrm{s}$. A negative reactivity given by $\rho$=0.1 dollar will be used as well as a time of $t$=2 seconds. The corresponding input and output are given in the following sections:
 
 ### Input
 <details><summary>CLICK HERE to expand the input of the application of AnalyticNPKE-Ramp.py</summary>
@@ -337,8 +337,47 @@ step = 0.001                                          # Recommended value
 </p>
 </details>
 
+### Outputs
+Two outputs are generated. The first one is provided by the Python's shell, where the time and the neutron density are printed. The second output is given as a txt file whose name is "solutions_final", and which is generated in the same folder where the code is saved. 
 
-
-
+<details><summary>CLICK HERE to expand the Outout of the application of AnalyticNPKE-Ramp.py</summary>
+<p>
+```
+The last 30 values are given. The complete output is given in the txt file. 
+...
+1.97 1.330516908276276
+1.971 1.3307711779807945
+1.972 1.3310255646844884
+1.973 1.331280068451131
+1.974 1.3315346893445346
+1.975 1.3317894274285604
+1.976 1.3320442827671142
+1.977 1.3322992554241664
+1.978 1.3325543454637243
+1.979 1.3328095529498534
+1.98 1.3330648779466536
+1.981 1.3333203205182909
+1.982 1.3335758807289764
+1.983 1.3338315586429637
+1.984 1.3340873543245553
+1.985 1.334343267838108
+1.986 1.3345992992480376
+1.987 1.334855448618793
+1.988 1.3351117160148882
+1.989 1.335368101500862
+1.99 1.3356246051413316
+1.991 1.3358812270009428
+1.992 1.336137967144411
+1.993 1.336394825636477
+1.994 1.3366518025419405
+1.995 1.3369088979256796
+1.996 1.3371661118525853
+1.997 1.3374234443876065
+1.998 1.3376808955957533
+1.999 1.3379384655420707
+2.0 1.3381961542916707
+```
+</p>
+</details>
 
 

@@ -268,7 +268,7 @@ Neutron density: 0.23611064482555608
 which coincides in the first seven digits with the data reported by Nahla (2010, p. 8). 
 ## 7. AnalyticNPKE-Ramp.py
 
-Even when the analytical solution was developed assuming a constant reactivity, it also can be used when the reactivity is a linear function of time, i.e., $\rho(t)=\gamma t$, where $\gamma$ is a constant. For such scenarios it is necessary to discretize the time in small intervals,assuming a constant value of the reactivity in each of them, given by:
+Even when the analytical solution was developed assuming a constant reactivity, it also can be used when the reactivity is a linear function of time, i.e., $\rho(t)=\gamma t$, where $\gamma$ is a constant.Such scenario is known as the "ramp reactivity case". To solve it, it is necessary to discretize the time in small intervals,assuming a constant value of the reactivity in each of them, given by:
 
 $$\bar{\rho}=\frac{\ \rho\left(t_n\right)+\rho(t_{n-1})}{2} \tag{24}$$
 
@@ -282,7 +282,8 @@ $$n_{t_{n-1}}(t_n)=n_{t_n}(0),\ \ \ \ C_{k_{t_{n-1}}}(t_n)=C_{k_{t_n}}(0), \tag{
 
 in other words, the value of the variables at the end of an interval are the initial conditions for the next one. 
 The code **AnalyticNPKE-Ramp.py**, that is provided in the repository, includes the last methodology. This code is similar to **AnalyticNPKE-Insertion.py**, considering the following modifications:
-+ Since the polynomials depends on the reactivity, they must to be updated in each step.
+
+>+ Since the polynomials depends on the reactivity, they must to be updated in each step.
 + It is necessary to solve the equations for the precursors because the vector $C=[C_1(0),C_2(0),...,C_m(0)]$ is required for each time step.
 + The solution is provided as a vector who contains not only the Target time, but also the 
 

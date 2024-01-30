@@ -222,7 +222,7 @@ The **AnalyticNPKE-Insertion** code will be used to reproduce part of the data r
 | $\lambda_5$   |1.40           | $\beta_5$         |0.00096          |
 | $\lambda_6$   |3.87           | $\beta_6$         |0.000195         |
 
-and $\beta$=0.0075 and $\Lambda$=0.0005. A negative reactivity given by $\rho$=-1 dollar will be used as well as a time of $t$=10 seconds. 
+and $\beta$=0.0075 and $\Lambda$=0.0005 $\mathrm{s}$. A negative reactivity given by $\rho$=-1 dollar will be used as well as a time of $t$=10 seconds. 
 ### Input:
 
 <details><summary>CLICK HERE to expand the application of the AnalyticNPKE-Insertion.py</summary>
@@ -294,7 +294,48 @@ The **AnalyticNPKE-Ramp.py** will be used to reproduce data reported by Nahla (2
 | $\lambda_5$   |1.40           | $\beta_5$         |0.000896         |
 | $\lambda_6$   |3.87           | $\beta_6$         |0.000182         |
 
-and $\beta$=0.007 and $\Lambda$= 0.00002 $\mathrm{s}$. A negative reactivity given by $\rho$=0.1 dollar will be used as well as a time of $t$=2 seconds. 
+and $\beta$=0.007 and $\Lambda$= 0.00002 $\mathrm{s}$. A negative reactivity given by $\rho$=0.1 dollar will be used as well as a time of $t$=2 seconds. The corresponding input in given in the following section.
+
+### Input
+<details><summary>CLICK HERE to expand the input of the application of AnalyticNPKE-Ramp.py</summary>
+<p>
+
+
+```Python
+#***********************Input Parameters ********************************
+#************************************************************************
+# L = list with lambda constants
+# Betas = list with fractions of the precursors
+# Lambda_m is the prompt neutron generation time
+# Beta_total is computed by default
+# Reactivity can be expressed in dollars or numerically
+#Gamma slope of the linear reactivity expressed in dollars
+
+L=[0.0127, 0.0317, 0.115, 0.311,1.40, 3.87]
+Betas = [0.000266,0.001491,0.001316,0.002849,0.000896,0.000182]
+Lambda_m=0.00002
+gamma = 0.1                                            
+
+#********************* Initial conditions *******************************
+# n_0= neutron density at t=0
+# C_init = list with the initial conditions for the precursors
+n_0=1
+
+#************* Initial conditions given by n(0)b_k/(Lambda_m*lambda_k)
+for k in range(len(Betas)):
+    C_init.append((Betas[k]/(L[k]*Lambda_m))*n_0)
+
+#*************************************************************************
+#********************* Discretization Input ******************************
+#*************************************************************************
+    
+Target = 2                                            # Target is the desired time
+step = 0.001                                          # Recommended value
+
+#************************************************************************
+```
+</p>
+</details>
 
 
 

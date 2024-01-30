@@ -265,7 +265,7 @@ for k in range(len(Betas)):
 ```Python
 Neutron density: 0.23611064482555608
 ```
-which coincides in the first seven digits with the data reported by Nahla
+which coincides in the first seven digits with the data reported by Nahla (2010, p. 8). 
 
 
 

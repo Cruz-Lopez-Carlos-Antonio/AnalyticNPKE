@@ -274,11 +274,11 @@ $$\bar{\rho}=\frac{\ \rho\left(t_n\right)+\rho(t_{n-1})}{2} \tag{24}$$
 
 where the limit and upper times are defined as:
 
-$$t_{n}=\Delta t \cdot n = h \cdot n$$
+$$t_{n}=\Delta t \cdot n = h \cdot n \tag{25}$$
 
-$$t_{n-1}=\Delta t \cdot (n-1) = h \cdot (n-1). \tag{25}$$
+$$t_{n-1}=\Delta t \cdot (n-1) = h \cdot (n-1). \tag{26}$$
 Aditionally, it is necessary to update the initial conditions at the end of each interval, considering the following relationships:
-$$n_{t_{n-1}}(t_n)=n_{t_n}(0),\ \ \ \ C_{k_{t_{n-1}}}(t_n)=C_{k_{t_n}}(0)$$
+$$n_{t_{n-1}}(t_n)=n_{t_n}(0),\ \ \ \ C_{k_{t_{n-1}}}(t_n)=C_{k_{t_n}}(0) \tag{27}$$
 The code **AnalyticNPKE-Ramp** solves the system given in Eq. (13) and Eq. (14). It is provided in the text files of the present repository.
 
 

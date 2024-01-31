@@ -24,6 +24,9 @@ The authors appreciate the financial support received from the Consejo Nacional 
    - [Example of an application of the AnalayticNPKE-Insertion.py](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE#61-application)
 1. [AnalyticNPKE-Ramp.py](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE#7-analyticnpke-ramppy)
    - [Example of an application of the AnalyticNPKE-Ramp.py](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE#71-application)
+1. [AnalyticNPKE-Feedback.py](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE#8-analyticnpke-feedbackpy)
+   - [Example of an Application of the AnalyticNPKE-Feedback.py](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE#81-example-of-an-application-of-the-analyticnpke-feedbackpy)
+
    
 ## 1. Mathematical description of the problem
 The Neutron Point Kinetic Equations (NPKE) with $K$ groups of precursors of delayed neutrons can be written as follows:

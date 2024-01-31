@@ -8,8 +8,11 @@ Authors: Carlos-Antonio Cruz-López (cacl.nucl@gmail.com), Gilberto Espinosa-Par
 Mathematical and algorithmical generalities of the codes are described in the following lines with the purpose to provide some insight of the developed work. Nevertheless, a more detailed and precise discussion is provided in the submitted article.
 ## Software specifications.
 The AnalyticNPKE codes were written in the Python programming language in its version 3. The codes require the following libraries:
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [x] itertools
+- [x] numpy
+- [x] math 
+The first and the third libraries are usually included in the installation of the Python 3. Nevertheless, the numpy library needs to be installed. We suggest tu use the Anaconda distribuitor in order to carry out the installation in a straighforward way. Such distribuitor can be consulted [here](https://www.anaconda.com/download).
+
 ## Financial Support.
 The authors appreciate the financial support received from the Consejo Nacional de Ciencia y Tecnología, CONAHCYT, under the program “Estancias Posdoctorales por México, 2022”, with the project entitled: “Desarrollo de modelos fenomenológicos energéticos de orden fraccional, para la optimización y simulación en reactores nucleares de potencia”, by which the present development was possible.
 ## Index of the Repository

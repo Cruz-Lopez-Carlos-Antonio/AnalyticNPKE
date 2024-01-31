@@ -461,3 +461,19 @@ step = 0.001                                          # Recommended value
 </p>
 </details>
 
+### Outputs
+As in the case of **AnalyticNPKE-Insertion.py**, there are two outputs. The one provided by the Python's shell where is given the maximum of the neutron density (also called "peak of the neutron density"), as well as the time where it is reached and the corresponding concentration of the precursors of the delayed neutrons. The second one consists of a ".txt" file where all the computed points are contained. 
+### Output 1
+
+<details><summary>CLICK HERE to expand the Outout of the application of AnalyticNPKE-Feedback.py</summary>
+<p>
+ 
+```Python
+
+Neutron peak: 20119823293.181976
+Time of the peak: 1.106
+Concentration of the precursors related to the neutron density peak
+[1996512972.7807598, 13401179130.68308, 12054651574.611992, 24129095447.662556, 6908405306.398891, 2446315046.9759207]
+```
+</p>
+</details>

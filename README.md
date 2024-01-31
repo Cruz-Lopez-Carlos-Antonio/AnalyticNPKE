@@ -340,6 +340,7 @@ step = 0.001                                          # Recommended value
 ### Outputs
 Two outputs are generated. The first one is provided by the Python's shell, where the time and the neutron density are printed. The second output is given as a txt file whose name is "solutions_final", and which is generated in the same folder where the code is saved. 
 
+#### Output 1. Python's shell.
 <details><summary>CLICK HERE to expand the Outout of the application of AnalyticNPKE-Ramp.py</summary>
 <p>
  
@@ -380,5 +381,7 @@ The last 30 values are given. The complete output is given in the txt file.
 ```
 </p>
 </details>
+
+#### Output 2. A ".txt" file.
 
 

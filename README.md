@@ -16,7 +16,7 @@ The AnalyticNPKE codes were written in the Python programming language in its ve
 The first and the third libraries are usually included in the installation of the Python 3. Nevertheless, the numpy library needs to be installed. We suggest tu use the Anaconda distribuitor in order to carry out the installation in a straighforward way. Such distribuitor can be consulted [here](https://www.anaconda.com/download).
 
 ## Financial Support.
-The authors appreciate the financial support received from the Consejo Nacional de Humanidades, Ciencia y Tecnología, CONAHCYT, under the program “Estancias Posdoctorales por México, 2022”, with the project entitled: “Desarrollo de modelos fenomenológicos energéticos de orden fraccional, para la optimización y simulación en reactores nucleares de potencia”, by which the present development was possible.
+The authors appreciate the financial support received from the Consejo Nacional de Humanidades, Ciencia y Tecnología (CONAHCYT), under the program “Estancias Posdoctorales por México, 2022”, with the project entitled: “Desarrollo de modelos fenomenológicos energéticos de orden fraccional, para la optimización y simulación en reactores nucleares de potencia”, by which the present development was possible.
 ## Index of the Repository
 1. [Mathematical description of the problem](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE#1-mathematical-description-of-the-problem).
 1. [Laplace transform of the system](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE#2-laplace-transform-of-the-system).

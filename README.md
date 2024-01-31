@@ -406,4 +406,6 @@ The analytic solution can also be applied to non-linear cases where the reactivi
 $$\frac{d\rho\left(t\right)}{dt}=a-bn(t). \tag{27}$$
 The procedure is simialr to the one described in Section 7, i.e., it is necessary to discretize the time in small intervals, assuming that reactivity is constant in each of them, which is computed approximating Eq. (27) as follows:
 $$\frac{d\rho\left(t\right)}{dt}=\approx\frac{\rho\left(t+h\right)-\rho\left(t\right)}{h}\approx\ a-bn(t) \tag{28}$$
+where $h$ denotes the time step using for the approximation. Considering the case of $t$=0, Eq. (28) is reduced to:
+$$\rho(h)=\rho(0)+(a-bn(0)) \tag{29}$$
 

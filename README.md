@@ -15,7 +15,7 @@ The authors appreciate the financial support received from the Consejo Nacional 
 1. [Simplification of the Polynomials](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE?tab=readme-ov-file#4-simplification-of-the-polynomials).
 2. [Algorithmical Implementation](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE?tab=readme-ov-file#5-algorithmical-implementation).
       [5.1 Sums](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE?tab=readme-ov-file#51-sums)
-      [5.2 Shifted sums]
+      [5.2 Shifted sums](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE/blob/main/README.md#52-shifted-sums)
 
 ## 1. Mathematical description of the problem
 The Neutron Point Kinetic Equations (NPKE) with $K$ groups of precursors of delayed neutrons can be written as follows:

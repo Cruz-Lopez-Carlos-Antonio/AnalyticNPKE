@@ -9,8 +9,8 @@ Mathematical and algorithmical generalities of the codes are described in the fo
 ## Financial Support.
 The authors appreciate the financial support received from the Consejo Nacional de Ciencia y Tecnología, CONAHCYT, under the program “Estancias Posdoctorales por México, 2022”, with the project entitled: “Desarrollo de modelos fenomenológicos energéticos de orden fraccional, para la optimización y simulación en reactores nucleares de potencia”, by which the present development was possible.
 ## Index of the Repository
-#### [1. Mathematical description of the problem](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE#1-mathematical-description-of-the-problem)
-#### [2. Laplace transform of the system](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE#2-laplace-transform-of-the-system)
+-[1. Mathematical description of the problem](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE#1-mathematical-description-of-the-problem)
+-[2. Laplace transform of the system](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE#2-laplace-transform-of-the-system)
 
 ## 1. Mathematical description of the problem
 The Neutron Point Kinetic Equations (NPKE) with $K$ groups of precursors of delayed neutrons can be written as follows:

@@ -420,5 +420,5 @@ As an example of application, the code will be used to reproduce data that is re
 | $\lambda_5$   |1.13           | $\beta_5$         |0.00074          |
 | $\lambda_6$   |3.0            | $\beta_6$         |0.00027          |
 
-with $\beta=0.00645$, $\Lambda=5 \times 10^{-5}$, and $a=0.01$ and $b=10^{-11}$.
+with $\beta=0.00645$, $\Lambda=5 \times 10^{-5} \mathrm{s}$, and $a=0.01$ and $b=10^{-11}$.
 

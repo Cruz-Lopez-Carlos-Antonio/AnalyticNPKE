@@ -384,4 +384,4 @@ The last 30 values are given. The complete output is given in the txt file.
 
 #### Output 2. A ".txt" file.
 
-
+Unlike the Python's shell that only contains the results for the neutron density, the "Solutions_final.txt" contains the solution of the precursors of the delayed neutrons. An example of such file can be reviewed in the following link: (Example of an output file)[https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE/blob/main/Example_of_output_ramp.txt] 

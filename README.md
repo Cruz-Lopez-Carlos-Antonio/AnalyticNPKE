@@ -11,6 +11,7 @@ The authors appreciate the financial support received from the Consejo Nacional 
 ## Index of the Repository
 1. [Mathematical description of the problem](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE#1-mathematical-description-of-the-problem)
 1. [Laplace transform of the system](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE#2-laplace-transform-of-the-system)
+1. [Analytical Solutions]
 
 ## 1. Mathematical description of the problem
 The Neutron Point Kinetic Equations (NPKE) with $K$ groups of precursors of delayed neutrons can be written as follows:

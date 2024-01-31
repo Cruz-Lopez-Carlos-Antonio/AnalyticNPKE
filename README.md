@@ -410,4 +410,14 @@ where $h$ denotes the time step using for the approximation. Considering the cas
 $$\rho(h)=\rho(0)+(a-bn(0)). \tag{29}$$
 **AnalyticNPKE-Feedback.py**, that is provided in this repository, includes this last methodology. Essentially it has the same structure as the **AnalyticNPKE-Ramp.py**, but it updates the reactivity function in a different way. 
 ### 8.1 Example of an Application of the AnalyticNPKE-Feedback.py
-As an example of application, the code will be used to reproduce data that is reported by Nahla (2010, p. 1626)
+As an example of application, the code will be used to reproduce data that is reported by Nahla (2010, p. 1626). For such task the following data will be used:
+|Nuclear parameter | Value  ($\mathrm{s^{-1}}$)| Nuclear parameter | Value           |
+| ------------- | ------------- | -------------     | --------------  |
+| $\lambda_1$   |0.0124         | $\beta_1$         |0.00021          |
+| $\lambda_2$   |0.0305         | $\beta_2$         |0.00141          |
+| $\lambda_3$   |0.111          | $\beta_3$         |0.00127          |
+| $\lambda_4$   |0.301          | $\beta_4$         |0.00255          |
+| $\lambda_5$   |1.13           | $\beta_5$         |0.00074          |
+| $\lambda_6$   |3.0            | $\beta_6$         |0.00027          |
+with $\Beta$=0.00645, $\Lambda$=5x$10^{-5}$, and $a=0.01$ and $b=10^{-11}$.
+

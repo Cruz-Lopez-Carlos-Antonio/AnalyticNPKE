@@ -10,7 +10,8 @@ Mathematical and algorithmical generalities of the codes are described in the fo
 The AnalyticNPKE codes were written in the Python programming language in its version 3. The codes require the following libraries:
 - [x] itertools
 - [x] numpy
-- [x] math 
+- [x] math
+
 The first and the third libraries are usually included in the installation of the Python 3. Nevertheless, the numpy library needs to be installed. We suggest tu use the Anaconda distribuitor in order to carry out the installation in a straighforward way. Such distribuitor can be consulted [here](https://www.anaconda.com/download).
 
 ## Financial Support.

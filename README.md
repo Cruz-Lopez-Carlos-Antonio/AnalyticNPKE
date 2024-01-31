@@ -21,7 +21,9 @@ The authors appreciate the financial support received from the Consejo Nacional 
    - [5.4 Evaluation of Polynomials](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE/blob/main/README.md#54-evaluation-of-the-polynomials)
    - [5.5 Flow diagram of the codes](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE#55-flow-diagram-of-the-python-codes)
 1. [AnalyticNPKE-Insertion.py](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE#6-analyticnpke-insertionpy)
-   1. [Example of application of the AnalayticNPKE-Insertion.py](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE#61-application)
+   - [Example of an application of the AnalayticNPKE-Insertion.py](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE#61-application)
+1. [AnalyticNPKE-Ramp.py](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE#7-analyticnpke-ramppy)
+- [Example of an application of the AnalyticNPKE-Ramp.py](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE#71-application)
    
 ## 1. Mathematical description of the problem
 The Neutron Point Kinetic Equations (NPKE) with $K$ groups of precursors of delayed neutrons can be written as follows:
@@ -225,7 +227,7 @@ A flow diagram of the dependence of the codes is provided in the following image
 
 ## 6. AnalyticNPKE-Insertion.py
 The code **AnalyticNPKE-Insertion** solves the system given in Eq. (13) and Eq. (14). It is provided in the text files of the present repository.
-### 6.1 Application. 
+### 6.1 Example of an application of the AnalayticNPKE-Insertion.py
 The **AnalyticNPKE-Insertion** code will be used to reproduce part of the data reported by Nahla (2010, p. 1626). For such scenario the input parameters are the following: 
 |Nuclear parameter | Value  ($\mathrm{s^{-1}}$)| Nuclear parameter | Value           |
 | ------------- | ------------- | -------------     | --------------  |
@@ -297,7 +299,7 @@ The code **AnalyticNPKE-Ramp.py**, that is provided in the repository, includes 
 > + Since the polynomials depends on the reactivity, they must to be updated in each step.
 > + It is necessary to solve the equations for the precursors because the vector $C=[C_1(0),C_2(0),...,C_m(0)]$ is required for each time step.
 > + The solution is provided as a vector who contains not only the Target time, but also the solution for each time step.
-### 7.1 Application. 
+### 7.1 Example of an application of the AnalayticNPKE-Insertion.py 
 The **AnalyticNPKE-Ramp.py** will be used to reproduce data reported by Nahla (2010, p. 9), For such scenario the input parameters are the following: 
 |Nuclear parameter | Value  ($\mathrm{s^{-1}}$)| Nuclear parameter | Value           |
 | ------------- | ------------- | -------------     | --------------  |

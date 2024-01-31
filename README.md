@@ -472,3 +472,6 @@ Time of the peak: 1.106
 Concentration of the precursors related to the neutron density peak
 [1996512972.7807598, 13401179130.68308, 12054651574.611992, 24129095447.662556, 6908405306.398891, 2446315046.9759207]
 ```
+which coincides with the one reported by Nahla (2010, p. 1626). 
+### Output 2.
+The "Solutions_feedback_final.txt" contains the solution of the precursors of the delayed neutrons for each step of calculation. An example of such file can be reviewed in the following link: [Example of an output file](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE/blob/main/Example_of_output_ramp.txt)

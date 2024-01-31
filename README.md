@@ -419,5 +419,6 @@ As an example of application, the code will be used to reproduce data that is re
 | $\lambda_4$   |0.301          | $\beta_4$         |0.00255          |
 | $\lambda_5$   |1.13           | $\beta_5$         |0.00074          |
 | $\lambda_6$   |3.0            | $\beta_6$         |0.00027          |
+
 with $\Beta$=0.00645, $\Lambda$=5x$10^{-5}$, and $a=0.01$ and $b=10^{-11}$.
 

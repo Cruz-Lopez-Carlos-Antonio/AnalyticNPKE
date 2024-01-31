@@ -401,3 +401,6 @@ The last 30 values are given. The complete output is given in the txt file.
 #### Output 2. A ".txt" file.
 
 Unlike the Python's shell that only contains the results for the neutron density, the "Solutions_final.txt" contains the solution of the precursors of the delayed neutrons. An example of such file can be reviewed in the following link: [Example of an output file](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE/blob/main/Example_of_output_ramp.txt)
+## 8. AnalyticNPKE-Feedback.py
+The analytic solution can also be applied to non-linear cases where the reactivity depends on the neutro nensity $n(t)$. Particularly in the cases where such relationship is given by:
+$$ \frac{dn(t)}{dt}=a-bn(t) \tag{29}$$

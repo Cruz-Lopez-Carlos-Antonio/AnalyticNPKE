@@ -162,7 +162,7 @@ iteration = int(Target/step)
 f= open("Solutions_final.txt","w+")                   # Name of the output file
 Beta_total = sum(Betas) 
 for k in range(iteration):
-    rho =(gamma*Beta_total*((k+1)*step)+gamma*Beta_total*((k)*step))/2
+    rho =(gamma*Beta_total*((k+1)*step)+gamma*Beta_total*((k)*step))/2   #Update the reactivity
     solution(L,Betas,Lambda_m,n_0,C_init,rho,step, vector_solution)
     print(step*(k+1),vector_solution[-1][0])
     n_0 = vector_solution[-1][0]

@@ -315,19 +315,19 @@ Neutron density: 0.23611064482555608
 ```
 which coincides in the first seven digits with the data reported by Nahla (2010, p. 8). 
 
-> [!NOTE]
+> [!IMPORTANT]
 > The initial conditions for the concentration of the precursors can be modified by hand, instead of using a loop. It is only necessary to modify the following lines in the code:
 
-´´´Python
+```Python
 C_init = [ ]   #In this part it is necessary to introduce the particular initial conditions 
-´´´
+```
 as well as ignore the following lines:
 
-´´´Python
+```Python
 #************* Initial conditions given by n(0)b_k/(Lambda_m*lambda_k)
 for k in range(len(Betas)):
     C_init.append((Betas[k]/(L[k]*Lambda_m))*n_0)
-´´´
+```
 
 ## 7. AnalyticNPKE-Ramp.py
 

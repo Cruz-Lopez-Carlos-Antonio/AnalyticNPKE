@@ -78,8 +78,9 @@ where $m_i$ denotes the roots of $M(s)$ and $M'(s)= dM(s)/ds$.
 Using the last theorem, the analytical solutions of the neutron density is given by:
 $$n\left(t\right)=\sum_{k=1}^{K+1}{\frac{n\left(0\right)Q\left(p_k\right)+H(p_k)}{P\prime(p_k)}\exp(p_kt)} \tag{12}$$
 where $p_k, 1\leq k \leq K+1$ are the roots of the polynomial $P(s)$ given in Eq. (10), and $P'(s)=dP(s)/ds$. The analytical solution for the precursors of the delayed neutrons can be found, on the other hand, using the Convolution's theorem, after which the following expression is obtained:
-$$C_k\left(t\right)=\frac{\beta_k}{\Lambda}\sum_{j=1}^{K+1}{\frac{n\left(0\right)Q\left(p_j\right)+H(p_j)}{P\prime(p_j)}\frac{\exp{\left(p_jt\right)}-\exp(-\lambda_kt)}{p_j+\lambda_k}}+C_k\left(0\right)\exp(-\lambda_kt) \tag{13}$$
+$$C_k\left(t\right)=\frac{\beta_k}{\Lambda}\sum_{j=1}^{K+1}{\frac{n\left(0\right)Q\left(p_j\right)+H(p_j)}{P\prime(p_j)}\frac{\exp{\left(p_jt\right)}-\exp(-\lambda_kt)}{p_j+\lambda_k}}+C_k\left(0\right)\exp(-\lambda_kt). \tag{13}$$
 
+As it can be observed, the solutions are expressed as a linear combination of the exponential functions.
 ## 4. Simplification of the polynomials.
 One of the most important contribution of our work (Cruz-López et al., 2023) consists of simplifying the Polynomials given in Eq. (9) and Eq. (10), which can be conveniently written as:
 $$P\left(s\right)=s^{K+1}+\left(S_{1,K}-u\right)s^K+\left(S_{2,K}-uS_{1,K}-\frac{1}{\Lambda}\sum_{i=1}^{K}{\lambda_i\beta_i}\right)s^{K-1}$$

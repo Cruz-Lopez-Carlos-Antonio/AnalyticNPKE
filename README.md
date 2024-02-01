@@ -121,8 +121,8 @@ from itertools import combinations
 import numpy as np
 def Suma (m, L):
    s = 0
-   for k in list(combinations(L,m)):
-       s = s+np.prod(np.array(k))
+   for k in list(combinations(L,m)):             #Builds the combinations of the set of the Lambda constants
+       s = s+np.prod(np.array(k))                #Carries out the product of the combinations. 
    return round(s,8)
 ```
 ### 5.2 Shifted Sums.
@@ -143,11 +143,11 @@ Finally, instead of using the Eq. (18), it is possible to apply the Eq. (17) to 
 from itertools import combinations
 import numpy as np
 def Suma_(i,m, L):
-   L_i=L[:]     #Creates a copy of the list where the decay lambdas are storage.
-   L_i.remove(L[i])    #Removes the decay lambda in the i-position
+   L_i=L[:]                                 #Creates a copy of the list where the decay lambdas are storage.
+   L_i.remove(L[i])                         #Removes the decay lambda in the i-position
    s=0
-   for k in list(combinations(L_i,m)):
-       s = s+np.prod(np.array(k))
+   for k in list(combinations(L_i,m)):      #Builds the combinations of the set of the Lambda constants
+       s = s+np.prod(np.array(k))           #Carries out the product of the combinations. 
    return round(s,8)
 ```
 ### 5.3 Polynomials 
@@ -206,7 +206,7 @@ This code generates the coefficients of the $H(s)$ polynomial that is given by E
 ```Python
 
 def Polyn_coeff_H(L, C_H, rho, Betas, l, C_init):              #Functions that returns the coefficients of the polynomial H given in Eq. (15)
-     bet_tot = np.sum(np.array(Betas))                         #β = n
+     bet_tot = np.sum(np.array(Betas))                         #β 
      u = (rho-bet_tot)/l                                       #u = (ρ − β) /l
      s,a = 0, 1
      for i in range(len(C_init)):
@@ -224,7 +224,7 @@ This code provides the coefficients of the $Q(s)$ polynomial given in Eq. (16). 
 ```Python
 
 def Polyn_coeff_Q(L, C_q,rho,Betas,l):              #Functions that returns the coefficients of the polynomial H given in Eq. (16)
-     bet_tot = np.sum(np.array(Betas))              #Total Beta
+     bet_tot = np.sum(np.array(Betas))              #β
      u = (rho-bet_tot)/l                            #u = (ρ − β) /l
      C_q.append(1)                                  #First coefficient of Q(s) equals to 1
      for j in range(len(L)):

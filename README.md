@@ -135,7 +135,7 @@ Once that such element was removed, it is possible to define a new set of index 
 
 $$\Omega_3=\set{\lambda_1,\lambda_2,\lambda_4,\ldots,\lambda_{n-1},\lambda_n}\rightarrow \Psi=\set{\psi_{1,3},\psi_{2,3},\psi_{3,3},\ldots,\psi_{n-2,3},\psi_{n-1,3}}. \tag{23}$$
 
-Finally, instead of using the Eq. (18), it is possible to use the Eq. (17) to the set $\Psi$, because the element has been removed and there is not need to check, in each sum, that the index is different from it. We avoid, in this way, the disadvantage restriction that as mentioned before. This procedure is implemented in the following code:
+Finally, instead of using the Eq. (18), it is possible to apply the Eq. (17) to the set $\Psi$, because the element has been removed and there is not need to check, in each sum, that the index is different from it. We avoid, in this way, the disadvantage restriction that as mentioned before. This procedure is implemented in the following code:
 ### Code 2 ###
 ```Python
 # Function S_(i,m,n)

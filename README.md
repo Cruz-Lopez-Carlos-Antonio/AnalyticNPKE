@@ -130,9 +130,12 @@ As it can be observed, the sums given in Eq. (18) have an important restriction 
 $$\Omega=\set{\lambda_1,\lambda_2,\lambda_3,\lambda_4,\ldots,\lambda_{n-1},\lambda_n} \tag{21}$$
 $$\downarrow$$
 $$\Omega_3=\set{\lambda_1,\lambda_2,\lambda_4,\ldots,\lambda_{n-1},\lambda_n}. \tag{22}$$
-Once that such element was removed, it is possible to use the Eq. (17) instead of the Eq. (18), using a new set of index as follows:
-$$\Omega_3=\set{\lambda_1,\lambda_2,\lambda_4,\ldots,\lambda_{n-1},\lambda_n}\rightarrow \Psi=\set{\psi_{1,3},\psi_{2,3},\psi_{3,3},\ldots,\psi_{n-1,3},\psi_{n,3}}. \tag{23}$$
-Finally, instead of using the Eq. (18), it is possible to use the Eq. (17) to the set $\Psi$, avoinding in such way the disadvantage restriction that as mentioned before. In the following code such procedure is implemented:
+
+Once that such element was removed, it is possible to define a new set of index as follows:
+
+$$\Omega_3=\set{\lambda_1,\lambda_2,\lambda_4,\ldots,\lambda_{n-1},\lambda_n}\rightarrow \Psi=\set{\psi_{1,3},\psi_{2,3},\psi_{3,3},\ldots,\psi_{n-2,3},\psi_{n-1,3}}. \tag{23}$$
+
+Finally, instead of using the Eq. (18), it is possible to use the Eq. (17) to the set $\Psi$, because the element has been removed and there is not need to check, in each sum, that the index is different from it. We avoid, in this way, the disadvantage restriction that as mentioned before. This procedure is implemented in the following code:
 ### Code 2 ###
 ```Python
 # Function S_(i,m,n)

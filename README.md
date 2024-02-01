@@ -68,7 +68,7 @@ and:
 $$P\left(s\right)=s\prod_{k=1}^{K}{(s+\lambda_k)}-\frac{\rho-\beta}{\Lambda}\prod_{k=1}^{K}\left(s+\lambda_k\right)-\frac{1}{\Lambda}\sum_{k=1}^{K}{\lambda_k\beta_k}\prod_{j=1,j\neq k}^{K}{(s+\lambda_j}). \tag{10}$$
 
 ## 3. Analytical solutions.
-The Laplace transform system given in Eq. (7) and (8) can be solved using the Heaviside's Theorem Expansion (Arfken et al., 2013, p. 1045), which states that:
+The Laplace transform system given in Eq.(8) can be solved using the Heaviside's Theorem Expansion (Arfken et al., 2013, p. 1045), which states that:
 
 >**Theorem 1**:
 For two polynomials $L(s)$ and $M(s)$, where the degree of $L(s)$ is less than the degree of $M(s)$, it follows that:

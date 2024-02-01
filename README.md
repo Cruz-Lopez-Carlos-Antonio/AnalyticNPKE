@@ -109,7 +109,8 @@ $$S_{2,n}=\sum_{k_1=1}^{n-2+1}\sum_{k_2=k_1+1}^{n-2+2}{\lambda_{k_1}\lambda_{k_2
 which can be expanded as:
 $$S_{2,n}=\sum_{k_1=1}^{n-1}\sum_{k_2=k_1+1}^{n}{\lambda_{k_1}\lambda_{k_2}}=\sum_{k_2=2}^{n}{\lambda_1\lambda_{k_2}}+\sum_{k_2=3}^{n}{\lambda_2\lambda_{k_2}}+\ldots+\sum_{k_2=n}^{n}{\lambda_{n-1}\lambda_{k_2}} $$
 
-$$\lambda_1\lambda_2+\lambda_1\lambda_3+\ldots+\lambda_1\lambda_2+\lambda_2\lambda_3+\lambda_2\lambda_4+\ldots+\lambda_2\lambda_n$$
+$$=\lambda_1\lambda_2+\lambda_1\lambda_3+\ldots+\lambda_1\lambda_2+\lambda_2\lambda_3+\lambda_2\lambda_4+\ldots+\lambda_2\lambda_n$$
+
 $$+\ldots+\lambda_{n-1}\lambda_n \tag{20}$$
 
 which can be understood as the sum of all combinations of two elements of the set $\Omega=\set{\lambda_1,\lambda_2,\ldots,\lambda_n}$. Such observation can be extended to the general case, which can be proved using the Vieta's formulas (Vinberg, 2003, p. 89). One of the main computational contributions of our work was provided a simple algorithm for the Eq. (19), which is given in the following code:

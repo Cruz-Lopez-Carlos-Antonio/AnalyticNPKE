@@ -35,6 +35,7 @@ The authors appreciate the financial support received from the Consejo Nacional 
    - [7.1 Example of an application of the AnalyticNPKE-Ramp.py](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE#71-application)
 1. [AnalyticNPKE-Feedback.py](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE#8-analyticnpke-feedbackpy)
    - [8.1 Example of an Application of the AnalyticNPKE-Feedback.py](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE#81-example-of-an-application-of-the-analyticnpke-feedbackpy)
+1. [References](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE?tab=readme-ov-file#9-references)
 
    
 ## 1. Mathematical description of the problem

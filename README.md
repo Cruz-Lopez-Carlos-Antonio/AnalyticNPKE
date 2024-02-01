@@ -341,14 +341,15 @@ $$t_{n}=\Delta t \cdot n = h \cdot n \tag{25}$$
 
 $$t_{n-1}=\Delta t \cdot (n-1) = h \cdot (n-1). \tag{26}$$
 Aditionally, it is necessary to update the initial conditions at the end of each step, considering the following relationships:
-$$n_{t_{n-1}}(t_n)=n_{t_n}(0),\ \ \ \ C_{k_{t_{n-1}}}(t_n)=C_{k_{t_n}}(0). \tag{27}$$
+$$n_{t_{n-1}}(t_n)=n_{t_n}(0),\ \ \ \ C_{k_{t_{n-1}}}(t_n)=C_{k_{t_n}}(0), \tag{27}$$
 
-In other words, the value of the variables at the end of an interval are the initial conditions for the next one. 
+where $h$ is the time step.  In other words, the value of the variables at the end of an interval are the initial conditions for the next one. 
 The code **AnalyticNPKE-Ramp.py**, that is provided in the repository, includes the last methodology. This code is similar to **AnalyticNPKE-Insertion.py**, considering the following modifications:
 
 > + Since the polynomials depends on the reactivity, they must to be updated in each step.
-> + It is necessary to solve the equations for the precursors because the vector $C=[C_1(0),C_2(0),...,C_m(0)]$ is required for each time step.
-> + The solution is provided as a vector who contains not only the Target time, but also the solution for each time step.
+> + It is necessary to solve the equations related to the precursors because the vector $C=[C_1(0),C_2(0),...,C_m(0)]$ is required in each time step.
+> + The solution is provided as a vector who contains, not only the Target time, but also the solution for each time step.
+> + 
 ### 7.1 Example of an application of the AnalayticNPKE-Insertion.py 
 The **AnalyticNPKE-Ramp.py** will be used to reproduce data reported by Nahla (2010, p. 9), For such scenario the input parameters are the following: 
 |Nuclear parameter | Value  ($\mathrm{s^{-1}}$)| Nuclear parameter | Value           |
@@ -360,7 +361,12 @@ The **AnalyticNPKE-Ramp.py** will be used to reproduce data reported by Nahla (2
 | $\lambda_5$   |1.40           | $\beta_5$         |0.000896         |
 | $\lambda_6$   |3.87           | $\beta_6$         |0.000182         |
 
-and $\beta$=0.007 and $\Lambda$= 0.00002 $\mathrm{s}$. A negative reactivity given by $\rho$=0.1 dollar will be used as well as a time of $t$=2 seconds. The corresponding input and outputs are given in the following sections:
+and $\beta$=0.007 and $\Lambda$= 0.00002 $\mathrm{s}$. A negative reactivity given by $\rho$=0.1 dollar will be used as well as a time of $t$=2 seconds.
+>[!WARNING]
+> We concluded that an adequate time step is given by $h=0.001$. Nevertheless the execution's time is acceptable, carrying out 2000 iterations in nearly 5 seconds on a 3.80 GHz Desktop Computer, under a Windows 11 operative system. 
+
+
+The corresponding input and outputs are given in the following sections:
 
 ### Input
 <details><summary>CLICK HERE to expand the input of the application of AnalyticNPKE-Ramp.py</summary>

@@ -416,7 +416,7 @@ Two outputs are generated. The first one is provided by the Python's shell, wher
 <p>
  
 ```Python
-The last 30 values are given. The complete output is given in the txt file. 
+Only the last 30 values are showed by brevity. By the Python's shell prints all the results.
 ...
 1.97 1.330516908276276
 1.971 1.3307711779807945

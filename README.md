@@ -314,6 +314,21 @@ for k in range(len(Betas)):
 Neutron density: 0.23611064482555608
 ```
 which coincides in the first seven digits with the data reported by Nahla (2010, p. 8). 
+
+> [!NOTE]
+> The initial conditions for the concentration of the precursors can be modified by hand, instead of using a loop. It is only necessary to modify the following lines in the code:
+
+´´´Python
+C_init = [ ]   #In this part it is necessary to introduce the particular initial conditions 
+´´´
+as well as ignore the following lines:
+
+´´´Python
+#************* Initial conditions given by n(0)b_k/(Lambda_m*lambda_k)
+for k in range(len(Betas)):
+    C_init.append((Betas[k]/(L[k]*Lambda_m))*n_0)
+´´´
+
 ## 7. AnalyticNPKE-Ramp.py
 
 Even when the analytical solution was developed assuming a constant reactivity, it also can be used when the reactivity is a linear function of time, i.e., $\rho(t)=\gamma t$, where $\gamma$ is a constant.Such scenario is known as the "ramp reactivity case". To solve it, it is necessary to discretize the time in small intervals,assuming a constant value of the reactivity in each of them, given by:

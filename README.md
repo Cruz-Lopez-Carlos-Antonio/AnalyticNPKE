@@ -331,7 +331,7 @@ for k in range(len(Betas)):
 
 ## 7. AnalyticNPKE-Ramp.py
 
-Even when the analytical solution was developed assuming a constant reactivity, it also can be used when the reactivity is a linear function of time, i.e., $\rho(t)=\gamma t$, where $\gamma$ is a constant. Such scenario is known as the "ramp reactivity case". To solve it, it is necessary to discretize the time in small intervals, assuming a constant value of the reactivity in each of them, given by its mean:
+Even when the analytical solution was developed assuming a constant reactivity, it also can be used when the reactivity is a linear function of time, i.e., $\rho(t)=\gamma t$, where $\gamma$ is a constant. Such scenario is known as the "ramp reactivity case". To solve it, it is necessary to discretize the time in small intervals, assuming a constant value of the reactivity in each of them, given by:
 
 $$\bar{\rho}=\frac{\ \rho\left(t_n\right)+\rho(t_{n-1})}{2} \tag{24}$$
 

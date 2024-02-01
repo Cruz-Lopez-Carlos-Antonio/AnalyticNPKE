@@ -363,7 +363,7 @@ The **AnalyticNPKE-Ramp.py** will be used to reproduce data reported by Nahla (2
 
 and $\beta=0.007$ and $\Lambda= 0.00002 \mathrm{s}$. A negative reactivity given by $\rho$=0.1 dollar will be used as well as a time of $t=2$ seconds.
 >[!WARNING]
-> We concluded that an adequate time step is given by $h=0.001 \mathrm{s}$. Nevertheless the execution's time is acceptable, carrying out 2000 iterations in nearly 5 seconds on a 3.80 GHz Desktop Computer, under a Windows 11 operative system. 
+> We concluded that an adequate time step is given by $h=0.001 \mathrm{s}$, because with this value several reference values were reproduced. Even more,  the execution's time is acceptable, carrying out 2000 iterations in nearly 5 seconds on a 3.80 GHz Desktop Computer, under a Windows 11 operative system. Greater time steps can lead to errors.
 
 The corresponding input and outputs are given in the following sections:
 

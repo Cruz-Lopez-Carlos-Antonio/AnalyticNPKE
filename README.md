@@ -256,7 +256,7 @@ A flow diagram of the dependence of the codes is provided in the following image
 ## 6. AnalyticNPKE-Insertion.py
 The code **AnalyticNPKE-Insertion** solves the system given in Eq. (13) and Eq. (14) including all the past Codes, as well as a routine that integrates them. It is provided in the text files of the present repository.
 
-[!WARNING]
+>[!WARNING]
 > The AnalyticNPKE-Insertion.py code only can be used for cases with constant reactivities. For linear-time reactivities see the AnalyticNPKE-Ramp.py code.
 
 ### 6.1 Example of an application of the AnalayticNPKE-Insertion.py

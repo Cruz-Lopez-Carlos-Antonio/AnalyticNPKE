@@ -168,7 +168,7 @@ where:
 > - $\Lambda$ has the meaning described in Section 2, and it is given by the **l** variable.
 > - $\mathcal{H}$ is a list (or vector) whose elements are the coefficients of the $H(s)$ polynomial given in Eq. (15), and it is denoted by **C_H**.
 > - $[C_1(0),C_2(0),\ldots,C_n(0)]$ is a vector whose entries are the initial conditions of the groups of precursors of delayed neutrons. Such vector is denoted in the code as **C_init**.
-> - $Q(s)$ is a list (or vector) whose elements are the coefficients of the polynomial given in Eq.(9), which is given by **C_q** in the code. 
+> - $Q(s)$ is a list (or vector) whose elements are the coefficients of the polynomial given in Eq. (9), which is given by **C_q** in the code. 
 
 ### 5.3.1 Codes that compute the polynomials coefficients.
 The following three codes computes the coefficients of the polynomials that are used in the analytical solution.

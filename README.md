@@ -331,19 +331,19 @@ for k in range(len(Betas)):
 
 ## 7. AnalyticNPKE-Ramp.py
 
-Even when the analytical solution was developed assuming a constant reactivity, it also can be used when the reactivity is a linear function of time, i.e., $\rho(t)=\gamma t$, where $\gamma$ is a constant.Such scenario is known as the "ramp reactivity case". To solve it, it is necessary to discretize the time in small intervals,assuming a constant value of the reactivity in each of them, given by:
+Even when the analytical solution was developed assuming a constant reactivity, it also can be used when the reactivity is a linear function of time, i.e., $\rho(t)=\gamma t$, where $\gamma$ is a constant. Such scenario is known as the "ramp reactivity case". To solve it, it is necessary to discretize the time in small intervals, assuming a constant value of the reactivity in each of them, given by its mean:
 
 $$\bar{\rho}=\frac{\ \rho\left(t_n\right)+\rho(t_{n-1})}{2} \tag{24}$$
 
-where the limit and upper times are defined as:
+where the lower and upper times are defined as:
 
 $$t_{n}=\Delta t \cdot n = h \cdot n \tag{25}$$
 
 $$t_{n-1}=\Delta t \cdot (n-1) = h \cdot (n-1). \tag{26}$$
-Aditionally, it is necessary to update the initial conditions at the end of each interval, considering the following relationships:
-$$n_{t_{n-1}}(t_n)=n_{t_n}(0),\ \ \ \ C_{k_{t_{n-1}}}(t_n)=C_{k_{t_n}}(0), \tag{27}$$
+Aditionally, it is necessary to update the initial conditions at the end of each step, considering the following relationships:
+$$n_{t_{n-1}}(t_n)=n_{t_n}(0),\ \ \ \ C_{k_{t_{n-1}}}(t_n)=C_{k_{t_n}}(0). \tag{27}$$
 
-in other words, the value of the variables at the end of an interval are the initial conditions for the next one. 
+In other words, the value of the variables at the end of an interval are the initial conditions for the next one. 
 The code **AnalyticNPKE-Ramp.py**, that is provided in the repository, includes the last methodology. This code is similar to **AnalyticNPKE-Insertion.py**, considering the following modifications:
 
 > + Since the polynomials depends on the reactivity, they must to be updated in each step.

@@ -260,7 +260,7 @@ The code **AnalyticNPKE-Insertion** solves the system given in Eq. (13) and Eq. 
 > The AnalyticNPKE-Insertion.py code only can be used for cases with constant reactivities. For linear-time reactivities see the AnalyticNPKE-Ramp.py code.
 
 ### 6.1 Example of an application of the AnalayticNPKE-Insertion.py
-The **AnalyticNPKE-Insertion** code will be used to reproduce part of the data reported by Nahla (2010, p. 1626). For such scenario the input parameters are the following: 
+In the present example, the **AnalyticNPKE-Insertion** code will be used to reproduce part of the data reported by Nahla (2010, p. 1626). For such scenario the input parameters are the following: 
 |Nuclear parameter | Value  ($\mathrm{s^{-1}}$)| Nuclear parameter | Value           |
 | ------------- | ------------- | -------------     | --------------  |
 | $\lambda_1$   |0.0127         | $\beta_1$         |0.000285         |
@@ -270,7 +270,10 @@ The **AnalyticNPKE-Insertion** code will be used to reproduce part of the data r
 | $\lambda_5$   |1.40           | $\beta_5$         |0.00096          |
 | $\lambda_6$   |3.87           | $\beta_6$         |0.000195         |
 
-and $\beta$=0.0075 and $\Lambda$=0.0005 $\mathrm{s}$. A negative reactivity given by $\rho$=-1 dollar will be used as well as a time of $t$=10 seconds. 
+and $\beta$=0.0075 and $\Lambda$=0.0005 $\mathrm{s}$. A negative reactivity given by $\rho$=-1 dollar will be used as well as a time of $t$=10 seconds. The following part of the code is considered as the "Input" section. The last nuclear parameters are introduced in such part, as well as the initial conditions given by:
+
+$$n(0)=1, \ \ C_k(0)=\frac{\beta_k n(0)}{\Lambda \cdot \lambda_k}$$
+
 ### Input:
 
 <details><summary>CLICK HERE to expand the application of the AnalyticNPKE-Insertion.py</summary>

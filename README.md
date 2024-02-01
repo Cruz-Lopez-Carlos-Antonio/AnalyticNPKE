@@ -92,6 +92,7 @@ $$H\left(s\right)=\left(\sum_{k=1}^{K}{\lambda_kC_k\left(0\right)}\right)s^{K-1}
 and:
 
 $$Q\left(s\right)=s^K+\sum_{j=1}^{K}{S_{j,K}s^{K-j}}, \tag{16}$$
+
 where $u=(\rho-\beta)/\Lambda$ 
 
 and:

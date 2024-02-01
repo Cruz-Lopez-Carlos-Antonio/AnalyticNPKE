@@ -270,9 +270,9 @@ In the present example, the **AnalyticNPKE-Insertion** code will be used to repr
 | $\lambda_5$   |1.40           | $\beta_5$         |0.00096          |
 | $\lambda_6$   |3.87           | $\beta_6$         |0.000195         |
 
-and $\beta$=0.0075 and $\Lambda$=0.0005 $\mathrm{s}$. A negative reactivity given by $\rho$=-1 dollar will be used as well as a time of $t$=10 seconds. The following part of the code is considered as the "Input" section. The last nuclear parameters are introduced in such part, as well as the initial conditions given by:
+and $\beta=0.0075$ and $\Lambda=0.0005 \mathrm{s}$. A negative reactivity given by $\rho=-1$ dollar will be used as well as a time of $t=10$ seconds. The following part of the code is considered as the "Input" section. The last nuclear parameters are introduced in such part, as well as the initial conditions given by:
 
-$$n(0)=1, \ \ C_k(0)=\frac{\beta_k n(0)}{\Lambda \cdot \lambda_k}$$
+$$n(0)=1, \ \ C_k(0)=\frac{\beta_k n(0)}{\Lambda \cdot \lambda_k}, 1\leq k \leq K.$$
 
 ### Input:
 

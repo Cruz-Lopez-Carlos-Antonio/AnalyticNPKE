@@ -93,9 +93,7 @@ and:
 
 $$Q\left(s\right)=s^K+\sum_{j=1}^{K}{S_{j,K}s^{K-j}}, \tag{16}$$
 
-where $u=(\rho-\beta)/\Lambda$ 
-
-and:
+where $u=(\rho-\beta)/\Lambda$, and:
 
 $$S_{m,n}=\sum_{k_1=1}^{n-m+1}\sum_{k_2=k_1+1}^{n-m+2}\cdots\sum_{k_m=k_{m-1}+1}^{n {\lambda_{k_1}\lambda_{k_2}\cdots\lambda_{k_m}}, \tag{17}$$
 

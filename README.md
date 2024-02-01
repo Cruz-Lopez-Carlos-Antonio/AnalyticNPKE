@@ -276,7 +276,7 @@ $$n(0)=1, \ \ C_k(0)=\frac{\beta_k n(0)}{\Lambda \cdot \lambda_k}, 1\leq k \leq 
 
 ### Input:
 
-<details><summary>CLICK HERE to expand the application of the AnalyticNPKE-Insertion.py</summary>
+<details><summary>CLICK HERE to expand the input of the application of the AnalyticNPKE-Insertion.py</summary>
 <p>
 
 
@@ -412,7 +412,7 @@ step = 0.001                                          # Recommended value
 Two outputs are generated. The first one is provided by the Python's shell, where the time and the neutron density are printed. The second output is given as a txt file whose name is "solutions_final", and which is generated in the same folder where the code is saved. 
 
 #### Output 1. Python's shell.
-<details><summary>CLICK HERE to expand the Outout of the application of AnalyticNPKE-Ramp.py</summary>
+<details><summary>CLICK HERE to expand the Output of the application of AnalyticNPKE-Ramp.py</summary>
 <p>
  
 ```Python

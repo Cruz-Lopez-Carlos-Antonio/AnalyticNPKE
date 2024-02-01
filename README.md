@@ -361,10 +361,9 @@ The **AnalyticNPKE-Ramp.py** will be used to reproduce data reported by Nahla (2
 | $\lambda_5$   |1.40           | $\beta_5$         |0.000896         |
 | $\lambda_6$   |3.87           | $\beta_6$         |0.000182         |
 
-and $\beta$=0.007 and $\Lambda$= 0.00002 $\mathrm{s}$. A negative reactivity given by $\rho$=0.1 dollar will be used as well as a time of $t$=2 seconds.
+and $\beta=0.007$ and $\Lambda= 0.00002 \mathrm{s}$. A negative reactivity given by $\rho$=0.1 dollar will be used as well as a time of $t=2$ seconds.
 >[!WARNING]
-> We concluded that an adequate time step is given by $h=0.001$. Nevertheless the execution's time is acceptable, carrying out 2000 iterations in nearly 5 seconds on a 3.80 GHz Desktop Computer, under a Windows 11 operative system. 
-
+> We concluded that an adequate time step is given by $h=0.001 s$. Nevertheless the execution's time is acceptable, carrying out 2000 iterations in nearly 5 seconds on a 3.80 GHz Desktop Computer, under a Windows 11 operative system. 
 
 The corresponding input and outputs are given in the following sections:
 
@@ -462,7 +461,7 @@ The analytic solution can also be applied to non-linear cases where the reactivi
 $$\frac{d\rho\left(t\right)}{dt}=a-bn(t), \tag{27}$$
 where $at$ and $b$ represents the impressed reactivity and the shutdown coefficient, respectively (Nahla, 2010, p. 1626). The procedure is simialr to the one described in Section 7, i.e., it is necessary to discretize the time in small intervals, assuming that reactivity is constant in each of them, which is computed approximating Eq. (27) as follows:
 $$\frac{d\rho\left(t\right)}{dt}=\approx\frac{\rho\left(t+h\right)-\rho\left(t\right)}{h}\approx\ a-bn(t) \tag{28}$$
-where $h$ denotes the time step using for the approximation. Considering the case of $t$=0, Eq. (28) is reduced to:
+where $h$ denotes the time step using for the approximation. Considering the case of $t=0$, Eq. (28) is reduced to:
 $$\rho(h)=\rho(0)+(a-bn(0)). \tag{29}$$
 **AnalyticNPKE-Feedback.py**, that is provided in this repository, includes this last methodology. Essentially it has the same structure as the **AnalyticNPKE-Ramp.py**, but it updates the reactivity function in a different way. 
 ### 8.1 Example of an Application of the AnalyticNPKE-Feedback.py

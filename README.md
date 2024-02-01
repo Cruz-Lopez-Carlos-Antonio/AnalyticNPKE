@@ -530,3 +530,13 @@ Concentration of the precursors related to the neutron density peak
 which coincides with the one reported by Nahla (2010, p. 1626). 
 ### Output 2.
 The "Solutions_feedback_final.txt" contains the solution of the precursors of the delayed neutrons for each step of calculation. An example of such file can be reviewed in the following link: [Example of an output file](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE/blob/main/Example_of_output_ramp.txt)
+
+## 9. References.
+
+1. Arfken, G. B., Weber, H. J., Harris, F. E. 2013. Mathematical Methods for Physicists, Seventh Edition, p. 1045.
+2. Cruz-López, C.-A., Espinosa-Paredes, G., François, J.-L. 2023. A New Simplified Analytical Solution to Solve the Neutron Point Kinetics Equations Using the Laplace Transform Method. Computer Physics Communications, Vol. 238, 108564 https://doi.org/10.1016/j.cpc.2022.108564
+3. Duderstadt, J. J., Hamilton, L. J. 1976. Nuclear Reactor Analysis. John Wiley & Sons, Inc.
+4. Lewins, J. 1978. Nuclear Reactor Kinetics and Control. Pergamon Press.
+5. Nahla, A. A. 2010. Analytical Solution to Solve the Point Rector Kinetic Equations. Nuclear Engineering and Design, 240, 1622-1629. https://doi.org/10.1016/j.nucengdes.2010.03.003 
+6. Vinberg, E. B. 2003. A Course in Algebra. Graduated Studies in Mathematics, Vol. 56. American Mathematical Society. Providence, Rhode Island.  
+

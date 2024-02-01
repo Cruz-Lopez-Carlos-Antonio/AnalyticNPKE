@@ -231,7 +231,7 @@ def Polyn_coeff_Q(L, C_q,rho,Betas,l):              #Functions that returns the 
         C_q.append(Suma(j+1,L))
 ```
 ### 5.4 Evaluation of the Polynomials.
-Since the analytical solution requires the evaluation of the polynomials, it is necessary to introduce a brief routine that carries-out this procedure. This routine requires the coefficient of the polynomial as well as the value where they will be evaluated. The following code contains this function:
+Since the analytical solution requires the evaluation of the polynomials, it is necessary to introduce a brief routine that carries-out this procedure. This routine requires the coefficients of the polynomial as well as the real number where they will be evaluated. The following code contains this function:
 ### Code 6. Polynomial_evaluation.
 ```Python
 

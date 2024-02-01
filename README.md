@@ -77,7 +77,7 @@ where $m_i$ denotes the roots of $M(s)$ and $M'(s)= dM(s)/ds$.
  
 Using the last theorem, the analytical solutions of the neutron density is given by:
 $$n\left(t\right)=\sum_{k=1}^{K+1}{\frac{n\left(0\right)Q\left(p_k\right)+H(p_k)}{P\prime(p_k)}\exp(p_kt)} \tag{12}$$
-where $p_k, 1\leq k \leq K+1$ are the roots of the polynomial $P(s)$ given in Eq. (10), and $P'(s)=dP(s)/ds$. The analytical solution for the precursors of the delayed neutrons is given by:
+where $p_k, 1\leq k \leq K+1$ are the roots of the polynomial $P(s)$ given in Eq. (10), and $P'(s)=dP(s)/ds$. The analytical solution for the precursors of the delayed neutrons can be found, on the other hand, using the Convolution's theorem, after which the following expression is obtained:
 $$C_k\left(t\right)=\frac{\beta_k}{\Lambda}\sum_{j=1}^{K+1}{\frac{n\left(0\right)Q\left(p_j\right)+H(p_j)}{P\prime(p_j)}\frac{\exp{\left(p_jt\right)}-\exp(-\lambda_kt)}{p_j+\lambda_k}}+C_k\left(0\right)\exp(-\lambda_kt) \tag{13}$$
 
 ## 4. Simplification of the polynomials.

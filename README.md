@@ -351,7 +351,7 @@ The code **AnalyticNPKE-Ramp.py**, that is provided in the repository, includes 
 > + It is necessary to solve the equations related to the precursors because the vector $C=[C_1(0),C_2(0),...,C_m(0)]$ is required in each time step.
 > + The solution is provided as a vector who contains, not only the Target time, but also the solution for each time step.
 > + 
-### 7.1 Example of an application of the AnalayticNPKE-Insertion.py 
+### 7.1 Example of an application of the AnalayticNPKE-Ramp.py 
 The **AnalyticNPKE-Ramp.py** will be used to reproduce data reported by Nahla (2010, p. 9), For such scenario the input parameters are the following: 
 |Nuclear parameter | Value  ($\mathrm{s^{-1}}$)| Nuclear parameter | Value           |
 | ------------- | ------------- | -------------     | --------------  |
